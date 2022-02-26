@@ -1,0 +1,165 @@
+\documentclass[11pt,a4paper,final]{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancybox}
+\usepackage[T1]{fontenc}
+\usepackage{babel}[English]
+\usepackage[left=18mm,
+            right=12mm,
+            top=25mm,
+            bottom=25mm]{geometry}
+\usepackage[pagestyles,raggedright]{titlesec}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks,
+    linktoc=all,
+    urlcolor=blue
+    linkcolor=black,
+}
+
+\newcommand\fig[3]{
+\begin{figure}[H]
+  \centering
+  \href{#3}{\includegraphics[width=\linewidth]{#1}}
+  \caption{#2} 
+  \label{fig:#1}
+\end{figure}
+}
+
+\title{
+	\vspace{3.5cm}
+	University College Cork \\ [1cm]
+	\includegraphics[width=0.4\textwidth]{ucc_crest} \\ [1cm]
+	CS3205 Lab Report 1 \\ [0.5cm]
+	HDI Trends and Multidimensional Projections
+}
+\author{Jack O'Connor}
+\date{\today}
+
+\graphicspath{ {../hdi_visualisations/} {../multidimensional_projections} {./images/} }
+\setlength{\columnsep}{0.5cm}
+\pagenumbering{gobble}
+
+\begin{document}
+\thisfancyput(3.25in,-4.5in){%
+  \setlength{\unitlength}{1in}\fancyoval(7,9.5)}
+\maketitle
+\pagebreak
+
+{
+\hypersetup{hidelinks}
+\tableofcontents
+}
+\pagebreak
+\setcounter{page}{1}
+
+\begin{multicols}{2}
+\pagenumbering{arabic}
+\section{Introduction}
+\subsection{The Problem}
+the problem
+
+\subsection{The Datasets}
+the datasets
+
+\subsection{The Role of Visualisations}
+the role of visualisations
+
+
+\section{Data Description}
+\subsection{hdr.xlsx}
+Description of data.
+\subsection{hdi.csv}
+Description of data.
+
+
+\section{Task 1}
+\subsection{Free Exploration}
+In the free exploration section of the assignment I have created visualisations which give a broad overview of the general distribution of HDI across countries when looking at specific attributes of those countries.
+
+Each of the following visualisations will include:
+
+\begin{itemize}
+	\item A graphic
+	\item A description of a pattern (or lack of)
+	\item A hypothesis as to the cause of this pattern
+	\item The dataset from which the data came
+\end{itemize}
+
+\subsubsection{HDI Histogram}
+\fig{hdi_histogram}{my hdi caption}
+a
+
+\subsubsection{Global Average HDI}
+\fig{global_average_hdi_areachart}{no dips}
+a
+
+\subsubsection{Min/Max HDI Radial Plot}
+\fig{min_vs_max_hdi_radialplot}{going in circles}
+a
+
+\subsubsection{Expected Population Growth}
+\fig{population_growth_ratio_boxplot}{sexy visual}
+a
+
+\subsubsection{Male/Female Average Years Education}
+\fig{men_vs_women_mean_years_education_barchart}{girl power}
+a
+
+\subsection{Specific Observations}
+In the specific observations section of the assignment I have created visualisaions in line with the task list specifications.
+
+\subsubsection{Spurious Values}
+\subsubsection{HDI Global Heatmap}
+\fig{hdi_global_heatmap}{what a pretty map}
+a
+
+\subsubsection{Correlated/Uncorrelated Attributes}
+a
+
+\subsubsection{Hypotheses for Previous Patterns}
+a
+
+\subsubsection{Usefulness of All Visualisations}
+a
+
+\subsubsection{Alternative Visualisations}
+a
+
+
+\section{Task 2}
+Results for task 2.
+\subsection{Corel Projections Comparison}
+a
+
+\subsection{CBR Projections Comparison}
+a
+
+\subsection{Dataset 1 Projections Comparison}
+a
+
+\subsection{Dataset 2 Projections Comparison}
+a
+
+\subsection{Projections of HDR}
+a
+
+
+\section{Conclusions}
+Conclusions from overall assignment, emphasis on data sets, exercises and using visualisations.
+
+
+\section{References}
+References?
+
+\end{multicols}
+\end{document}
