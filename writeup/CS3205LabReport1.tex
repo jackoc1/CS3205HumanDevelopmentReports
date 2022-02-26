@@ -385,6 +385,8 @@ Figures 4.1-4.6 provide an overview of the different projections I did while cha
 \subsubsection{t-SNE}
 Figures 4.7-4.12 provide an overview of the different projections I did while changing the parameters of t-SNE. Images which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
 
+One thing I have noticed about t-SNE from using it is that while it's very good at creating clusters, it is noticeably slower than LSP for larger, higher dimension datasets.
+
 \begin{multicols}{3}
 \onlinefig{corel/t-sne/t-sne_corel_projection_1}{Initial Dimensions: 30, Target Dimension: 2, Perplexity: 30, Max No. Iterations: 1000, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839694-67f480c8-ea8f-4908-8933-46ddbf19df92.png}
 \onlinefig{corel/t-sne/euclidean_stress_curve_t-sne_corel_projection_1}{Euclidean Stress Curve}{https://user-images.githubusercontent.com/56483187/155839691-74e650cf-00c6-40ab-8314-143853398c1c.png}
@@ -478,7 +480,9 @@ Figures 4.21-4.26 provide an overview of the different projections I did while c
 
 \pagebreak
 \subsubsection{ProjClus}
-Figures 4.27-4.32 provide an overview of the different projections I did while changing the parameters of LSP. Papers which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+Figures 4.27-4.32 provide an overview of the different projections I did while changing the parameters of ProjClus. Papers which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
+I used Projection Clustering instead of PCA since PCA was incredibly slow computing the eigenvectors for the highly multidimensional text datasets. I really liked projection clustering since even though it isn't the best at separating labels, the clusters it makes do typically have a lot in common and the projections can vary wildly with the parameters.
 
 \begin{multicols}{3}
 \onlinefig{cbr/projclus/projclus_cbr_projection_1}{No. Iterations: 50, Fraction of Delta: 8.0, Cluster Factor: 4.5, Type of Projection: Nearest Neighbor Projection, Dissimilarity: Cosine}{https://user-images.githubusercontent.com/56483187/155839552-2a3c65b5-a098-415c-99dc-cae4562951d3.png}
@@ -504,6 +508,10 @@ Figures 4.27-4.32 provide an overview of the different projections I did while c
 
 \pagebreak
 \subsection{Medical Images Projections Comparison}
+It's worth noting that the medical images collection is the first set of images to score very poorly on both silhouette coefficient and stress curve metrics.
+
+This does make sense as the images lack any colour and are comprised of very similar classes such as a skull viewef from two different angles, or a topdown x-ray of a skull but to two different depths.
+
 \subsubsection{LSP}
 Figures 4.33-4.38 provide an overview of the different projections I did while changing the parameters of LSP. Images which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
 
@@ -570,7 +578,7 @@ Figures 4.45-4.46 provide an overview of the different projections I did using P
 \pagebreak
 \subsection{Headlines Projections Comparison}
 \subsubsection{LSP}
-Figures 4.47-4.52 provide an overview of the different projections I did while changing the parameters of LSP. Headlines which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+Figures 4.47-4.52 provide an overview of the different projections I did while changing the parameters of LSP. Articles which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
 
 \begin{multicols}{3}
 \onlinefig{headlines/lsp/lsp_headlines_projection_1}{No. Iterations: 50, Fraction of Delta: 8.0, No. Control Points: 10, No: Neighbours: 10, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839803-5b95dfde-491e-481c-afd4-3743af45ca64.png}
@@ -594,7 +602,7 @@ Figures 4.47-4.52 provide an overview of the different projections I did while c
 \end{multicols}
 
 \pagebreak
-\subsubsection{t-SNE}Figures 4.53-4.58 provide an overview of the different projections I did while changing the parameters of t-SNE. Headlines which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+\subsubsection{t-SNE}Figures 4.53-4.58 provide an overview of the different projections I did while changing the parameters of t-SNE. Articles which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
 
 \begin{multicols}{3}
 \onlinefig{headlines/t-sne/t-sne_headlines_projection_1}{Initial Dimensions: 30, Target Dimension: 2, Perplexity: 30, Max No. Iterations: 1000, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839825-a7f1758b-c4cf-4db1-87f6-e2e2fbceda09.png}
@@ -620,7 +628,9 @@ Figures 4.47-4.52 provide an overview of the different projections I did while c
 
 \pagebreak
 \subsubsection{ProjClus}
-Figures 4.59-4.64 provide an overview of the different projections I did while changing the parameters of LSP. Headlines which were hard to separete are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+Figures 4.59-4.64 provide an overview of the different projections I did while changing the parameters of LSP. Articles which were hard to separete are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
+For the highly clustered headlines in Figure 4.63 it's very interesting how high the similarity score for each article is. It does make me think that labeling news sources in this instance by company isn't particularly useful at clustering points together and that clustering by content is actually very effective.
 
 \begin{multicols}{3}
 \onlinefig{headlines/projclus/projclus_headlines_projection_1}{No. Iterations: 50, Fraction of Delta: 8.0, Cluster Factor: 4.5, Type of Projection: Nearest Neighbor Projection, Dissimilarity: Cosine}{https://user-images.githubusercontent.com/56483187/155839840-2b926114-f560-4a3a-960b-88cba82d15f5.png}
