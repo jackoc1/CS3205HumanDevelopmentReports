@@ -236,6 +236,7 @@ For the boxplots in figure 3.6, I have annotated the highest and lowest populati
 My reasoning for being surprised at Lithuania's placing is that when I was attending secondary school I knew as many Lithuanians as I knew Polish students, and Ireland is a known historically popular destination for Polish emigrants. I believed that with their being so many Lithuaning immigrants in Cork, Lithuania's population must be booming. However it appears I was wrong and there are actually more Lithuanians leaving the country than there are to replace them.
 
 The reason I was also surprised by Palestine's placing is because with the prosecution of Palestinian by Israel I thought that Palestine's future looked far too bleak to support a high level of population growth. It may be that Israel's treatment of Palestine has deteriorated so fast that the fact the HDR was published in 2020 which is 2 years ago may not account for current Palistinian affairs.
+\vfill\null
 \columnbreak
 
 \begin{flushleft}
@@ -248,6 +249,7 @@ The two countries which most stood out to me as being spurious when plotting hea
 The thing that I found most interesting about the Marshall Islands and what set it apart from most other countries was that its health expenditure as a fraction of GDP was only topped by the United States of America and yet despite spending all that money it still only has an average healthy life expectancy of 57 years, which does not even place it out of the bottom quarter countries.
 
 The reason I consider Palau to be an outlier then is that despite being a Very High HDI country and its health expenditure as a percentage of GDP being in line with other Very High HDI countries, its average life healthy life is by far the lowest of all Very High HDI countries at only 59 years. If I had to suggest a reason for this, despite being completely unfamiliar with the country before now, I would say it could be down to a large societal class diving existing in the country, similar to the United States which also has a lower than average healthy life expectancy for Very High HDI countries.
+\vfill\null
 \columnbreak
 
 \subsubsection{Correlated Attributes}
@@ -282,8 +284,9 @@ The country of Rwanda which is marked in the plot is a rather interesting outlie
 \onlinefig{labour_force_participation_vs_gdp_scatterplot}{Labour force participation plotted against GDP, colour represents HDI Level, size represents mean years schooling}{https://public.tableau.com/views/CS3205-HDI/Sheet13?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
 Another set of uncorrelated variables shown in Figure 3.11 are labour force participation rate and GDP. Even adding in mean years of schooling as a size attribute for each point still does not appear to materialise any pattern among country's labour force participation rates.
-
+\hfill\null
 \columnbreak
+
 \subsubsection{Hypotheses for Previous Patterns}
 \begin{flushleft}
 \textbf{Mean vs Expected Years Schooling}
@@ -291,21 +294,56 @@ Another set of uncorrelated variables shown in Figure 3.11 are labour force part
 \vspace{-2cm}
 \onlinefig{mean_vs_expected_years_schooling_scatterplot.png}{Amount of education is expected to rise, colour represents HDI Level}{https://public.tableau.com/views/CS3205-HDI/Sheet7?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
-text
+\underline{\textbf{Expected Correlation 1}}
+\\
+Figure 3.12 shows us that the expected mean years of education in the future for a country is highly correlated with its current mean years of education. We also see that for every country except Moldova for some reason, expected mean years of education is higher than current mean years of education.
+
+This correlation makes perfect sense as we would not expect a country which currently have five years less education than another country to all of a sudden catch up. The general pattern is that expected years education is set to rise by about four years across the board. It is worth noting that expected years education can not be greater than current forever since ceiling effects will start to come into play eventually, even if there are no signs of it yet.
+\\
+\underline{\textbf{Expected Correlation 2}}
+\\
+The second expected correlation I found was the correlation between fertility rate and adolescent birth rate found in Figure 3.8. From a purely mathematical view point this correlation makes perfect sense as the sooner your first child, the longer the window to have your second child and so on. There is also the biological factor that fertility is highest when women are young and lessens with time, so women have the easiest time conceiving when they are younger.
+\\
+\underline{\textbf{Unexpected Lack of Correlation 1}}
+\\
+It was entirely unexpected in Figure 3.10 to see that there is a complete lack of correlation between percentage of women in government and mean years of education. This lack of correlation stands in start contrast to women having greater participation in education in more developed countries. Based on this I would hypothesise that female participation in government is entirely a cultural issue and is not necessarily indicative of a country's development in standard of living.
+\\
+\underline{\textbf{Unexpected Lack of Correlation 2}}
+I was also shocked that a country's labour force participation rate had no correlation with that country's GDP. It seemed natural to me that country's that produced more goods would have more jobs. Labour force participation rate does not even seem to correlate with HDI Level.
+
+I can't think of any singular reason that could cause this. I think it is more likely that there are multiple factors that affect labour force participation rate independent of a country's GDP and each country is experiencing a high degree of one or two of those factors, shifting them up and down the scale seemingly at random. Possible reasons could be a society becoming highly automated with a great standard of living versus a war which cripples a country's economy.
 
 \subsubsection{Usefulness of All Visualisations}
+Overall I am happy with usefulness of the visualisations I chose. In my opinion scatterplots are the most useful since between colour, size and shape of each point, you can fit as many as five dimensions onto a single plot and still reasonably compare them. And even when just comparing two variables the density of points you can fit into a small space makes scatterplots extremely readable.
 
+If I had to pick a least useful visualisation it would be the radial plot, mainly because I lacked the ggplot2 skills to truly make it look nice. Even the attributes I chose to look at min and max hdi over the period are more novelty than truly informative since you do not have a sense of direction of time.
+
+I very much lke the very long bar charts when viewed in tableau since it properly supports dynamic scrolling while maintaining visibility of the axes. I must admit though in the two column pdf setup of the report, very long bar charts are completely unreadable. Luckily for the bar charts it is possible to have live links for every visualisation so I feel there is no information lost, only a minor inconvenience caused.
+\vfill\null
+\columnbreak
 
 \subsubsection{Alternative Visualisations}
 \begin{flushleft}
 \textbf{Min/Max HDI Alternative}
 \end{flushleft}
-\onlinefig{min_vs_max_hdi_sidebysidecircleplot}{too long for computer screen, can do horizontal line comparisons}{https://public.tableau.com/views/CS3205_hdi_csv/Sheet1?:language=en-GB&:display_count=n&:origin=viz_share_link}
+\onlinefig{min_vs_max_hdi_sidebysidecircleplot}{Click off white rectangle above to view in Tableau or navigate to visualisations folder}{https://public.tableau.com/views/CS3205_hdi_csv/Sheet1?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
+\textbf{Alternative to:} Figure 3.4, radial plot
+\\
+For comparing Min vs Max HDI Figure 3.13 side by side circle plots are an interesting alternative to radial plots since despite looking so dissimilar on the surface they are just one functional transformation away from becoming one another, by unwinding the circumference of the circle.
+The side by side circle plots are definitely easier to interpret than the radial plots, but that is at the expense of compactness which is also useful in a visualisation. Insight-wise I would say these visualisations are the same.
+
+\vfill\null
+\columnbreak
 \begin{flushleft}
 \textbf{Mean vs Expected Years Schooling}
 \end{flushleft}
 \onlinefig{mean_vs_expected_years_schooling_bar_and_linegraph}{Lose individual countries}{https://public.tableau.com/views/CS3205-HDI/Sheet4?:language=en-GB&:display_count=n&:origin=viz_share_link}
+
+\textbf{Alternative to:} Figure 3.12, scatterplot
+\\
+The bar and line graph Figure 3.14 is a very good alternative to the scatterplot as it can provide new and meaningful insight due to very clearly aggregating the data by label, all the while not sacrificing readability or compactness.
+An example of an insight which would be immediately obvious in the bar and line graph and not so in the scatterplot is the largest gap by Level between expected and mean years education. Unfortunately for me I forgot to make sure both axes are on the same scale and comparing the height of the bars to the height of the line is completely meaningless.
 
 \end{multicols}
 \pagebreak
