@@ -20,6 +20,7 @@
 \usepackage{hyperref}
 \usepackage{chngcntr}
 \counterwithin{figure}{section}
+\usepackage{mathptmx}
 
 \hypersetup{
     colorlinks,
@@ -100,11 +101,17 @@ Task 2 on the other hand uses highly multidimensional data such as images where 
 \begin{multicols}{2}
 \section{Data Description}
 \subsection{Task 1 Datasets}
-I used two datasets to complete task 1:
-\begin{itemize}
-	\item An Excel spreadsheet containing survey data collected by the Human Development Centre from their \hyperref[sec:References]{\underline{HDR 2020}} report
-	\item hdi.csv, a csv file containing the HDI score assigned to each country in the world from the years 1990 to 2019 provided to all students taking CS3205 on Canvas.
-\end{itemize}
+Two source datasets were used to complete task 1, on which data transformations were performed:
+\begin{enumerate}
+	\item \textbf{CS3205\_2020\_statistical\_annex\_all.xlsx}, is an Excel spreadsheet containing survey data collected by the Human Development Centre from their \hyperref[sec:References]{\underline{HDR 2020}} report.
+	\item \textbf{hdi.csv}, a csv file containing the HDI score assigned to each country in the world from the years 1990 to 2019 provided to all students taking CS3205 on Canvas.
+\end{enumerate}
+
+\textbf{CS3205\_2020\_statistical\_annex\_all.xlsx} contains all of the original sheets supplied in the HDR, unmodified. When selecting which attributes to include in the task 1 visualisations I found it most expedient to simply copy and paste the columns from the existing sheets to a new sheet called ReformattedData. This was possible due to the relatively small scall of the number of attributes and records in the dataset.
+
+I then was able to manually add the HDI Label column by selecting groups of cells between each of the highlighted HDI Level rows which were in the original sheets (possible since countries are ordered by HDI rank). Finally I removed the highlighted HDI Level rows since they were only for the benefit of human observers and do not actually contain any attribute information.
+
+\textbf{hdi.csv} was used to create two additional datasets.
 
 \subsection{Task 2 Datasets}
 Description of data.
