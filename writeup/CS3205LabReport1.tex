@@ -75,29 +75,46 @@
 
 \pagenumbering{arabic}
 \section{Introduction}
-\subsection{The Problem}
-the problem
+\subsection{List of Acronyms}
+UCC (University College Cork), HDR (Human Development Report), HDI (Human Development Index), GNI (Gross Naional Income), GDP (Gross Domestic Product), PCA (Principal Component Analysis), LSP (Least Squares Projection), ProjClus (Projection Clustering), t-SNE (t-distributed Stochastic Neighbour Embedding), CBR (Case-Based Reasoning).
 
-\subsection{The Datasets}
-the datasets
+\subsection{The Report}
+This report was created to document my experience developing my data visualisation skills as part of UCC's CS3205 Data Visualisation module. It is divided into two separate parts, each tackling its own separate area of data visualisation. As well as documenting my experience exploring the specified datasets and the tools I chose to use, this report also served as an instructive exercise in typesetting and formatting an academic paper, which is sure to prove useful next year when I tackle my final year project.
 
-\subsection{The Role of Visualisations}
-the role of visualisations
+Part 1 of this report deals with visualising survey data, namely in the form of the annual Human Development Report (HDR) dataset, to find attribute patterns using a wide variety of methods. Part 2 of this report uses the HDR Dataset as well as several other sample labeled datasets (which will be discussed in depth in the data description section) to create comprehensible projections into the 2-dimensional plane of the point-like datasets using several multi-dimensional scaling techniques.
 
+As one of the primary goals of this report is to compare the different visualisation methods against each other, I have formatted the document into two or three columns where appropriate, such that multiple visualisations are visible on each page. However, this does come at the cost of reducing the size of each visualisation. To offset this issue each image in this report is hyperlinked to a full size version hosted on either GitHub or Tableau. I would suggest viewing this pdf report in your browser such that the need to switch applications when viewing full size images is eliminated.
+
+The full project repository containing all scripts, datasets and other miscellaneous files needed to reproduce this report can be found \href{https://github.com/jackoc1/CS3205HumanDevelopmentReports}{here}.
+
+\subsection{The Role of Visualisation}
+Humans being a strongly visually oriented species means visualisations are a key part of any data analysis. A well formulated visualisation can turn an incomprehensible raw dataset into a graphic full of valuable information for our highly optimised pattern seeking brains.
+
+That does not mean that all visualisation techniques are suitable for all data analysis tasks. Care must be taken with the transformation of the raw data into visualisations that the resulting visual is actually meaningful, and not just misleading noise. Tasks 1 and 2 of this report are a good example of distinguishing when and when not to use different visualisation techniques.
+
+Task 1 uses the HDR dataset which has a (compared to Task 2's datasets) relatively small number of attributes, each of which is meaningful in its own right i.e. corresponds to an attribute of a country which has a meaningful, physical interpretation such as a country's total population or gross domestic produce (GDP). Techniques which compare individual attributes directly against each other can expose correlations between attributes which might not be obvious at first.
+
+Task 2 on the other hand uses highly multidimensional data such as images where each pixel of an image can be attribute of that data, or text documents where the words of each document are embedded into a vector space with hundreds or thousands of dimensions. Each individual attribute of these datasets on its own does not carry much weight in the context of an image or docuement and directly comparing them to each other is unlikely to yield any salient information. In such an instance it is much more useful to project each data point into a 2 or 3-dimensional space and seek more broad patterns between documents such as clustering and dissimilarity.
+
+\pagebreak
 \begin{multicols}{2}
 \section{Data Description}
-\subsection{hdr.xlsx}
-Description of data.
-\subsection{hdi.csv}
+\subsection{Task 1 Datasets}
+I used two datasets to complete task 1:
+\begin{itemize}
+	\item An Excel spreadsheet containing survey data collected by the Human Development Centre from their \hyperref[sec:References]{\underline{HDR 2020}} report
+	\item hdi.csv, a csv file containing the HDI score assigned to each country in the world from the years 1990 to 2019 provided to all students taking CS3205 on Canvas.
+\end{itemize}
+
+\subsection{Task 2 Datasets}
 Description of data.
 
 
 \section{Task 1}
 \subsection{Free Exploration}
-In the free exploration section of the assignment I have created visualisations which give a broad overview of the general distribution of HDI across countries when looking at specific attributes of those countries.
+In the free exploration section of the assignment I have mainly (but not exlusively) created visualisations which give a broad overview of the general distribution of HDI across countries.
 
 Each of the following visualisations will include:
-
 \begin{itemize}
 	\item A graphic
 	\item A description of a pattern (or lack of)
@@ -435,6 +452,7 @@ Conclusions from overall assignment, emphasis on data sets, exercises and using 
 
 
 \section{References}
-References?
+\label{sec:References}
+HDR 2020 dataset, Human Development Data Center, \href{https://hdr.undp.org/en/2020-report}{https://hdr.undp.org/en/2020-report}
 
 \end{document}
