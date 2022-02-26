@@ -350,9 +350,15 @@ An example of an insight which would be immediately obvious in the bar and line 
 
 
 \section{Task 2}
-Results for task 2.
+My results for task 2 are mainly in the form of images rather than text since images are most illustrative of what I am trying to show and I lack the necessary academic background to talk about the exact technical differences between projection techniques to any meaningful degree.
+
+The main thing I would say I accomplished while doing out task 2 besides very savvy with my folder structure and file naming scheme is just the skill of learning a niche piece of academic software to a usable degree, even without fully understanding how it works. I believe I demonstrated this by being able to create noticeably different projections for the same datasets only by adjusting a techniques parameters.
+
+It was also fun to see the names of advanced distance techniques beyond euclidean distance such as city-block, cosine-based and in particular the cool sounding infinity-norm.
 \subsection{Corel Projections Comparison}
 \subsubsection{LSP}
+Figures 4.1-4.6 provide an overview of the different projections I did while changing the parameters of LSP. Images which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{3}
 \onlinefig{corel/lsp/lsp_corel_projection_2}{No. Iterations: 50, Fraction of Delta: 8.0, No. Control Points: 10, No: Neighbours: 10, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
 \onlinefig{corel/lsp/stress_curve_lsp_corel_projection_2}{Cosine Stress Curve}{https://user-images.githubusercontent.com/56483187/155839659-76055fd8-3e97-4f96-b181-61d04055d806.png}
@@ -377,6 +383,8 @@ Results for task 2.
 
 \pagebreak
 \subsubsection{t-SNE}
+Figures 4.7-4.12 provide an overview of the different projections I did while changing the parameters of t-SNE. Images which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{3}
 \onlinefig{corel/t-sne/t-sne_corel_projection_1}{Initial Dimensions: 30, Target Dimension: 2, Perplexity: 30, Max No. Iterations: 1000, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839694-67f480c8-ea8f-4908-8933-46ddbf19df92.png}
 \onlinefig{corel/t-sne/euclidean_stress_curve_t-sne_corel_projection_1}{Euclidean Stress Curve}{https://user-images.githubusercontent.com/56483187/155839691-74e650cf-00c6-40ab-8314-143853398c1c.png}
@@ -401,6 +409,10 @@ Results for task 2.
 
 \pagebreak
 \subsubsection{PCA}
+Figures 4.13-4.14 provide an overview of the different projections I did using Principal Component Analysis (PCA). Images which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
+PCA is noticeably worse at separating out clusters of images than LSP and t-SNE but one thing I do find interesting that PCA shows is that the (faded) orange points which I unfortunately can not confirm at home but I believe were buildings are completely and utterly like all the other images in the dataset.
+
 \begin{multicols}{2}
 \onlinefig{corel/pca/pca_corel_projection_1}{No parameters}{https://user-images.githubusercontent.com/56483187/155839745-dc2a0ac3-f6e8-4d07-8dee-f5c3df9f6109.png}
 \textbf{Silhouette Coefficient}: 0.5201
@@ -413,6 +425,8 @@ Results for task 2.
 \pagebreak
 \subsection{CBR Projections Comparison}
 \subsubsection{LSP}
+Figures 4.15-4.20 provide an overview of the different projections I did while changing the parameters of LSP. Papers which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{3}
 \onlinefig{cbr/lsp/lsp_cbr_projection_1}{No. Iterations: 50, Fraction of Delta: 8.0, No. Control Points: 10, No: Neighbours: 10, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839508-a81f6502-d8f0-4c06-b35c-ca459c050838.png}
 \onlinefig{cbr/lsp/stress_curve_lsp_cbr_projection_1}{Stress Curve}{https://user-images.githubusercontent.com/56483187/155839521-6883f162-e805-4f46-b1f4-e22c47f764fe.png}
@@ -437,6 +451,8 @@ Results for task 2.
 
 \pagebreak
 \subsubsection{t-SNE}
+Figures 4.21-4.26 provide an overview of the different projections I did while changing the parameters of t-SNE. Papers which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{3}
 \onlinefig{cbr/t-sne/t-sne_cbr_projection_1}{Initial Dimensions: 30, Target Dimension: 2, Perplexity: 30, Max No. Iterations: 1000, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839694-67f480c8-ea8f-4908-8933-46ddbf19df92.png}
 \onlinefig{cbr/t-sne/stress_curve_t-sne_cbr_projection_1}{Stress Curve}{https://user-images.githubusercontent.com/56483187/155839691-74e650cf-00c6-40ab-8314-143853398c1c.png}
@@ -462,6 +478,8 @@ Results for task 2.
 
 \pagebreak
 \subsubsection{ProjClus}
+Figures 4.27-4.32 provide an overview of the different projections I did while changing the parameters of LSP. Papers which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{3}
 \onlinefig{cbr/projclus/projclus_cbr_projection_1}{No. Iterations: 50, Fraction of Delta: 8.0, Cluster Factor: 4.5, Type of Projection: Nearest Neighbor Projection, Dissimilarity: Cosine}{https://user-images.githubusercontent.com/56483187/155839552-2a3c65b5-a098-415c-99dc-cae4562951d3.png}
 \onlinefig{cbr/projclus/stress_curve_projclus_cbr_projection_1}{Stress Curve}{https://user-images.githubusercontent.com/56483187/155839565-bb5edaca-7ada-4aaf-92c2-85d570eb3663.png}
@@ -487,6 +505,8 @@ Results for task 2.
 \pagebreak
 \subsection{Medical Images Projections Comparison}
 \subsubsection{LSP}
+Figures 4.33-4.38 provide an overview of the different projections I did while changing the parameters of LSP. Images which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{3}
 \onlinefig{medical/lsp/lsp_medical_projection_1}{No. Iterations: 100, Fraction of Delta: 4.0, No. Control Points: 12, No: Neighbours: 80, Dissimilarity: Cosine}{https://user-images.githubusercontent.com/56483187/155839758-bcfd1527-fd77-47b4-b6a9-19645f9820fc.png}
 \onlinefig{medical/lsp/stress_curve_lsp_medical_projection_1}{Stress Curve}{https://user-images.githubusercontent.com/56483187/155839761-2cd4be9c-5256-49e6-a1db-0df83de65850.png}
@@ -511,6 +531,8 @@ Results for task 2.
 
 \pagebreak
 \subsubsection{t-SNE}
+Figures 4.39-4.44 provide an overview of the different projections I did while changing the parameters of t-SNE. Images which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{3}
 \onlinefig{medical/t-sne/t-sne_medical_projection_1}{Initial Dimensions: 30, Target Dimension: 2, Perplexity: 30, Max No. Iterations: 1000, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839779-5ccc227b-aeb9-4d53-8904-abe8e84ff030.png}
 \onlinefig{medical/t-sne/stress_curve_t-sne_medical_projection_1}{Stress Curve}{https://user-images.githubusercontent.com/56483187/155839774-b93c374f-5f15-4673-9980-b9f9f9e13f3d.png}
@@ -535,6 +557,8 @@ Results for task 2.
 
 \pagebreak
 \subsubsection{PCA}
+Figures 4.45-4.46 provide an overview of the different projections I did using Principal Component Analysis (PCA). Images which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{2}
 \onlinefig{medical/pca/pca_medical_projection_1}{No parameters}{https://user-images.githubusercontent.com/56483187/155839792-7a08dffd-4d02-4e7b-be41-02973fa70fda.png}
 \textbf{Silhouette Coefficient}: 0.3501
@@ -546,6 +570,8 @@ Results for task 2.
 \pagebreak
 \subsection{Headlines Projections Comparison}
 \subsubsection{LSP}
+Figures 4.47-4.52 provide an overview of the different projections I did while changing the parameters of LSP. Headlines which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{3}
 \onlinefig{headlines/lsp/lsp_headlines_projection_1}{No. Iterations: 50, Fraction of Delta: 8.0, No. Control Points: 10, No: Neighbours: 10, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839803-5b95dfde-491e-481c-afd4-3743af45ca64.png}
 \onlinefig{headlines/lsp/stress_curve_lsp_headlines_projection_1}{Stress Curve}{https://user-images.githubusercontent.com/56483187/155839808-9c049071-11a2-4a3d-8957-9f87cdb3610c.png}
@@ -568,7 +594,8 @@ Results for task 2.
 \end{multicols}
 
 \pagebreak
-\subsubsection{t-SNE}
+\subsubsection{t-SNE}Figures 4.53-4.58 provide an overview of the different projections I did while changing the parameters of t-SNE. Headlines which were hard to separate are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{3}
 \onlinefig{headlines/t-sne/t-sne_headlines_projection_1}{Initial Dimensions: 30, Target Dimension: 2, Perplexity: 30, Max No. Iterations: 1000, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839825-a7f1758b-c4cf-4db1-87f6-e2e2fbceda09.png}
 \onlinefig{headlines/t-sne/stress_curve_t-sne_headlines_projection_1}{Stress Curve}{https://user-images.githubusercontent.com/56483187/155839821-32867b97-3f4f-4793-baa3-2ff9bcef8274.png}
@@ -593,6 +620,8 @@ Results for task 2.
 
 \pagebreak
 \subsubsection{ProjClus}
+Figures 4.59-4.64 provide an overview of the different projections I did while changing the parameters of LSP. Headlines which were hard to separete are included next to each projection in the figure graphic and can be viewed full size by clicking the picture as they are all live links.
+
 \begin{multicols}{3}
 \onlinefig{headlines/projclus/projclus_headlines_projection_1}{No. Iterations: 50, Fraction of Delta: 8.0, Cluster Factor: 4.5, Type of Projection: Nearest Neighbor Projection, Dissimilarity: Cosine}{https://user-images.githubusercontent.com/56483187/155839840-2b926114-f560-4a3a-960b-88cba82d15f5.png}
 \onlinefig{headlines/projclus/stress_curve_projclus_headlines_projection_1}{Stress Curve}{https://user-images.githubusercontent.com/56483187/155839845-dce809b5-42fa-4c6e-962a-e3ae1ed00f7b.png}
@@ -617,7 +646,15 @@ Results for task 2.
 
 \pagebreak
 \subsection{Projections of HDR}
+I did remove HDI Rank and HDI from my HDR dataset before making my hdr.date file. The reason being that these variables are so highly correlated with HDI Level that the projections and clusters would perfectly separate out the countries by HDI Level using HDI and HDI Rank.
+
+I did however still include GDP. This seems completely innocent at first until you cast your mind back to Figure 3.9 which shows that GNI almost perfectly correlates with HDI, which means it almost perfectly correlates with HDI Level. In a plot not included in this report I but that is included in the visualisations folder of the GitHub repo I show that GDP also essentially perfectly correlates with HDI.
+
+Because of this, the following graphs are all obviously incredibly good at separating out countries by HDI Level. If I could rub a genie's lamp and go back in time, I would remove GDP and GNI from by HDR dataset as well.
+
 \subsubsection{LSP}
+Figures 4.65-4.70 provide an overview of the different projections I did while changing the parameters of LSP. Countries are once again coloured by HDI Level.
+
 \begin{multicols}{3}
 \onlinefig{hdr/lsp/lsp_hdr_projection_1}{No. Iterations: 50, Fraction of Delta: 8.0, No. Control Points: 18, No: Neighbours: 10, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839873-d01ec5e8-2dc0-4823-8a59-1d65931d0ae8.png}
 \onlinefig{hdr/lsp/stress_curve_lsp_hdr_projection_1}{Stress Curve}{https://user-images.githubusercontent.com/56483187/155839879-c8ebf158-a9e7-4c67-a3d1-189c8e75d45c.png}
@@ -642,6 +679,10 @@ Results for task 2.
 
 \pagebreak
 \subsubsection{t-SNE}
+Figures 4.71-4.76 provide an overview of the different projections I did while changing the parameters of t-SNE. Countries are once again coloured by HDI Level.
+
+t-SNE managed to make a loop out of red countries which is impressive that it managed to still find pick out some variation among countries despite GDP beind an all-powerful discriminating variable.
+
 \begin{multicols}{3}
 \onlinefig{hdr/t-sne/t-sne_hdr_projection_1}{Initial Dimensions: 30, Target Dimension: 2, Perplexity: 30, Max No. Iterations: 1000, Dissimilarity: Euclidean}{https://user-images.githubusercontent.com/56483187/155839954-83769d5f-d337-4511-9605-eb8c4ea76c86.png}
 \onlinefig{hdr/t-sne/stress_curve_t-sne_hdr_projection_1}{Stress Curve}{https://user-images.githubusercontent.com/56483187/155839950-234d76a3-9394-462f-b6f2-76c4d23b6c41.png}
@@ -666,6 +707,8 @@ Results for task 2.
 
 \pagebreak
 \subsubsection{PCA}
+Figures 4.77-4.78 provide an overview of the different projections I did using Principal Component Analysis (PCA). Countries are once again coloured by HDI Level.
+
 \begin{multicols}{2}
 \onlinefig{hdr/pca/pca_hdr_projection_1}{No parameters}{https://user-images.githubusercontent.com/56483187/155839911-ca81d27b-6f95-4806-85ca-5b7c857d63eb.png}
 \columnbreak
@@ -677,8 +720,15 @@ Results for task 2.
 
 
 \section{Conclusions}
-Conclusions from overall assignment, emphasis on data sets, exercises and using visualisations.
+The datasets supplied to us for this assignment were very appropriate and had lots of depth information-wise without a large amount of heavy-duty cleaning which would have worked against the purposes of the assignment, namely visualisation.
 
+The HDR dataset was particularly fun to use as it had so many variables associated with it anyone could pick out country attributes they were intereseted in and still have plenty of scope for creating numberous comparisons and visualisations. The fact that each variable also had a real-world representation meant that each visualisation really did mean something as well which is a great feeling to see that what you are doing is actually creating value.
+
+Also, for every visualisation I did that had results I could have anticipated, there was another visualisation that would truly did take me by surprise and cause me to reevaluate how I think about certain country dynamics.
+
+The multidimesional scaling techniques and projections of Task 2 were great to get experience with for me personally since I hope at some point in the future to either be a statistician or data scientist working with big data. Learning about the techniques which make sense of the large highly multidimensional datasets I hope to encounter in the future is a great stepping stone for whatever I decide to go on and study next.
+
+For both tasks I would say the visualisations were extremely appropriate. For HDR each dimension corresponeded to an attribute so things like the measure of a point in a certain dimension were easily interpreted and for the VisPipeline datasets since they were both images and text documents, both of which are usually consumed visually, seeing the final projections and being able to see which words or images were most common in a group was very insightful and easy to digest.
 
 \section{References}
 \label{sec:References}
