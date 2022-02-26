@@ -140,6 +140,7 @@ In the free exploration section of the assignment I have mainly (but not exlusiv
 Each of the following visualisations will include:
 \begin{itemize}
 	\item A graphic
+	\item An explanation of how to interpret the graphic
 	\item A description of a pattern (or lack of)
 	\item A hypothesis as to the cause of this pattern
 	\item The dataset from which the data came
@@ -148,17 +149,53 @@ Each of the following visualisations will include:
 \subsubsection{HDI Histogram}
 \onlinefig{hdi_histogram}{HDI Distribution with HDI Level as Colour}{https://public.tableau.com/views/CS3205-HDI/Sheet6?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
+The histogram in Figure 3.1 gives a general idea as to the number of countries in each HDI score 'bins' ranging from about 0.38 to 0.98 in with each bin covering the next approximately 0.04 increase in HDI. The counts in each bin range from 3 to 19.
+
+There is no mingling between colours since colour corresponds to HDI Level, which is single-handedly determined by a country's HDI score.
+
+This histogram is appears to be left skewed, which implies that there are more countries with very high and high HDI than there are with medium and low HDI. This is a very positive thing to see as it is undoubtedly preferable to have more countries with a good standard of living than less.
+\\
+\textbf{Dataset:} CS3205\_2020\_statistical\_annex\_all.xlsx
+
+
 \subsubsection{HDI Global Heatmap}
 \onlinefig{hdi_global_heatmap}{Darker greens imply higher HDI, darker reds lower HDI}{https://public.tableau.com/views/CS3205-HDI/Sheet3?:language=en-GB&:display_count=n&:origin=viz_share_link}
+
+The global heat map in Figure 3.2 is coloured by a dark-red to dark-green spectrum with the darkest red corresponding to the lowest HDI score and the darkest green corresponding to the highest HDI score. Using this visualisation it is very easy to see the influence a country's geographical location has on its HDI.
+
+From looking at this visualisation it becomes readily apparent that there are very few low HDI countries that are not found in Africa (except for its northern coast) or the south of Asia.
+\\
+\textbf{Dataset:} CS3205\_2020\_statistical\_annex\_all.xlsx
 
 \subsubsection{Average HDI Trend}
 \onlinefig{global_average_hdi_areachart}{Global average HDI strictly rises over time}{https://public.tableau.com/views/CS3205_hdi_csv/Sheet2?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
+The area chart in Figure 3.3 represents the average HDI score across all countries in the world for each of the years between 1990 to 2019 inclusive.
+
+By looking at this visualisation it is possible to interpret the fact that HDI across the world has on average been steadily increasing. In fact, it is possible to see from the chart that there hasn't been a single year in the given period in which average global HDI has not increased.
+\\
+\textbf{Dataset:} hdi\_pivoted.csv
+
 \subsubsection{Min/Max HDI}
 \onlinefig{min_vs_max_hdi_radialplot}{Max HDI over period in red, Min HDI over period in blue}{https://user-images.githubusercontent.com/56483187/155840052-f17e03e9-c48b-4dfd-8096-2bd5f066dd91.png}
 
+The radial plot in Figure 3.4 was created using ggplot2 in R. The name of the script used is \textbf{plots.R}. The length of a bar represents the HDI score for the country whose name appears at the end of the bar. The blue bars correspond to the minimum value a country's HDI score over the 1990-2019 period and the red bars correspond to the maximum HDI score over the same period.
+
+This plot gives an indication of which countries are developing at the fastest rates over the last 30 years, but it does not indicate whether that development is for the better or worse. Example: Iceland has quite a lot of red bar showing and it would be safe to say that's due to better living conditions with how popular it is to travel to Iceland for its hot springs and unique climeate, but Libya also has a lot or red bar showing and this is most likely due to the country taking a steep turn for the worst when the Libyan Civil war started in 2011.
+\\
+\textbf{Dataset:} hdi\_pivoted.R
+
 \subsubsection{Male/Female Mean Years Education}
 \onlinefig{men_vs_women_mean_years_education_barchart}{Male mean years education represented by blue, female pink}{https://public.tableau.com/views/CS3205-HDI/Sheet2?:language=en-GB&:display_count=n&:origin=viz_share_link}
+
+The side-by-side bar chart in Figure 3.5 shows the mean years of education for men (blue) and women (pink) by HDI label, very high to the left and low to the right.
+
+This chart shows an an interesting trend in that, typically, when a country goes from medium to high HDI, this happens in tandem with women overtaking men in terms of number of years of education. More interestingly this effect is excacerbated at the ends of HDI Level, with women spending even more or less years in education respectively than at the middle two levels.
+\\
+\textbf{Dataset:} CS3205\_2020\_statistical\_annex\_all.xlsx
+
+\subsubsection{Patterns Found}
+a
 
 
 \subsection{Specific Observations}
