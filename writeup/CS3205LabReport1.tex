@@ -100,12 +100,12 @@ Task 2 on the other hand uses highly multidimensional data such as images where 
 \pagebreak
 \section{Data Description}
 All \textbf{datasets} used are linked \href{https://github.com/jackoc1/CS3205HumanDevelopmentReports/tree/master/data}{here}.
-
+\\
 All \textbf{scripts} used are linked \href{https://github.com/jackoc1/CS3205HumanDevelopmentReports/tree/master/scripts}{here}. (Scripts use relative filepaths based on project structure found in the GitHub repo.)
 \subsection{Task 1 Datasets}
 Two source datasets were used to complete task 1, on which data transformations were performed:
 \begin{enumerate}
-	\item \textbf{CS3205\_2020\_statistical\_annex\_all.xlsx}, is an Excel spreadsheet containing survey data collected by the Human Development Centre from their \hyperref[sec:References]{\underline{HDR 2020}} report.
+	\item \textbf{CS3205\_2020\_statistical\_annex\_all.xlsx} is an Excel spreadsheet containing survey data collected by the Human Development Centre from their \hyperref[sec:References]{\underline{HDR 2020}} report.
 	\item \textbf{hdi.csv}, a csv file containing the Human Development Index (HDI) score assigned to each country in the world from the years 1990 to 2019 provided to all students taking CS3205 on Canvas.
 \end{enumerate}
 
@@ -115,10 +115,21 @@ I then was able to manually add the HDI Label column by selecting groups of cell
 
 \textbf{hdi.csv} was used to create two additional datasets. \textbf{hdi\_with\_levels.csv} is identical to hdi.csv except for each YEAR\_HDI attribute of the dataset a corresponding YEAR\_HDI\_LEVEL attribute following the same scheme as in the HDR is added using the script \textbf{add\_hdi\_levels.R}.
 
-\textbf{hdi_pivoted.csv} was created using \textbf{pivot\_hdi\_levels.R} and it performs a pivot transformation such that instead of having a YEAR column for each year in the period, a YEAR column and HDI column pair is used. This drastically reduces the number of repetitive attributes in the dataset at the expense of introducing repeat values for COUNTRY\_NAME AND COUNTRY\_CODE to make up for the increased number of rows in the dataset. This transformation was especially useful for aggregating data by year and country, since it cut down on the number of attributes which had to be included in any visualisation. A HDI\_Label column was also added to this dataset.
+\textbf{hdi\_pivoted.csv} was created using \textbf{pivot\_hdi\_levels.R} and it performs a pivot transformation such that instead of having a YEAR column for each year in the period, a YEAR column and HDI column pair is used. This drastically reduces the number of repetitive attributes in the dataset at the expense of introducing repeat values for COUNTRY\_NAME AND COUNTRY\_CODE to make up for the increased number of rows in the dataset. This transformation was especially useful for aggregating data by year and country, since it cut down on the number of attributes which had to be included in any visualisation. A HDI\_Label column was also added to this dataset.
 
 \subsection{Task 2 Datasets}
-Description of data.
+A total of five primary multidimensional data sets and two auxiliary stopwords datasets for CBR and Headlines textual datasets were used to create projections in VisPipeline. \textbf{hdr.data} was the only dataset which was not readily provided on Canvas.
+
+\begin{enumerate}
+	\item \textbf{Corel} is a collection of images with 10 distinct classes: African tribes, beaches, buildings, buses, dinosaurs, elephants, flowers, food, horses, mountains.
+	\item \textbf{CBR} is a collection of paper abstracts and references spanning four main topics: case-based reasoning (CBR), inductive logic programming (ILP), information retrieval (IR), sonification (SON) and six intruders.
+	\item \textbf{Medical} is a collection of X-Rays of the human body mainly of the skull and spine from different angles.
+	\item \textbf{Headlines} is a collection of articles from AP, BBC, Reuters and CNN which were all published during the same time period in the mid 2000's.
+	\item \textbf{HDR} contains all of the same attributes as were included in ReformattedData but excludes HDI and HDI\_Rank.
+\end{enumerate}
+
+To create the hdr.data file it was enough to create a new spreadsheet in Excel, remove the requisite columns, move Country column to the beginning and Label column to the end, export the new sheet to csv using a semi-colon as the delimiter and finally remove the Country and Label headers in the exported cvs while adding the necessary .data read-in file parameters to the top of the file.
+
 
 \pagebreak
 \begin{multicols}{2}
