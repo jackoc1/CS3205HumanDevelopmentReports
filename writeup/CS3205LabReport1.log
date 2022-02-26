@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.15)  26 FEB 2022 10:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.15)  26 FEB 2022 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,22 +441,22 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./CS3205LabReport1.aux)
 \openout1 = `CS3205LabReport1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -515,7 +515,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box100
-Package hyperref Info: Link coloring ON on input line 52.
+Package hyperref Info: Link coloring ON on input line 51.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -527,9 +527,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
 
 (./CS3205LabReport1.out) (./CS3205LabReport1.out)
 \@outlinefile=\write4
@@ -565,13 +565,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \setcounter
+l.62 \setcounter
                 {page}{1} [2]
 <../hdi_visualisations/hdi_histogram.png, id=194, 1127.71312pt x 596.98032pt>
 File: ../hdi_visualisations/hdi_histogram.png Graphic file (type png)
 <use ../hdi_visualisations/hdi_histogram.png>
 Package pdftex.def Info: ../hdi_visualisations/hdi_histogram.png  used on input
- line 99.
+ line 98.
 (pdftex.def)             Requested size: 248.96162pt x 131.79153pt.
 <../hdi_visualisations/global_average_hdi_areachart.png, id=195, 1141.26375pt x
  596.98032pt>
@@ -579,7 +579,7 @@ File: ../hdi_visualisations/global_average_hdi_areachart.png Graphic file (type
  png)
 <use ../hdi_visualisations/global_average_hdi_areachart.png>
 Package pdftex.def Info: ../hdi_visualisations/global_average_hdi_areachart.png
-  used on input line 103.
+  used on input line 102.
 (pdftex.def)             Requested size: 248.96162pt x 130.22475pt.
 <../hdi_visualisations/min_vs_max_hdi_radialplot.png, id=196, 691.83469pt x 538
 .26094pt>
@@ -587,7 +587,7 @@ File: ../hdi_visualisations/min_vs_max_hdi_radialplot.png Graphic file (type pn
 g)
 <use ../hdi_visualisations/min_vs_max_hdi_radialplot.png>
 Package pdftex.def Info: ../hdi_visualisations/min_vs_max_hdi_radialplot.png  u
-sed on input line 107.
+sed on input line 106.
 (pdftex.def)             Requested size: 248.96162pt x 193.69165pt.
 <../hdi_visualisations/population_growth_ratio_boxplot.png, id=197, 941.01563pt
  x 672.26157pt>
@@ -595,7 +595,7 @@ File: ../hdi_visualisations/population_growth_ratio_boxplot.png Graphic file (t
 ype png)
 <use ../hdi_visualisations/population_growth_ratio_boxplot.png>
 Package pdftex.def Info: ../hdi_visualisations/population_growth_ratio_boxplot.
-png  used on input line 111.
+png  used on input line 110.
 (pdftex.def)             Requested size: 248.96162pt x 177.85098pt.
  [1 <../hdi_visualisations/hdi_histogram.png (PNG copy)> <../hdi_visualisations
 /global_average_hdi_areachart.png (PNG copy)>]
@@ -605,29 +605,29 @@ File: ../hdi_visualisations/men_vs_women_mean_years_education_barchart.png Grap
 hic file (type png)
 <use ../hdi_visualisations/men_vs_women_mean_years_education_barchart.png>
 Package pdftex.def Info: ../hdi_visualisations/men_vs_women_mean_years_educatio
-n_barchart.png  used on input line 115.
+n_barchart.png  used on input line 114.
 (pdftex.def)             Requested size: 248.96162pt x 225.48192pt.
 <../hdi_visualisations/hdi_global_heatmap.png, id=207, 1128.46594pt x 596.98032
 pt>
 File: ../hdi_visualisations/hdi_global_heatmap.png Graphic file (type png)
 <use ../hdi_visualisations/hdi_global_heatmap.png>
 Package pdftex.def Info: ../hdi_visualisations/hdi_global_heatmap.png  used on 
-input line 123.
+input line 122.
 (pdftex.def)             Requested size: 248.96162pt x 131.70044pt.
 
 [2 <../hdi_visualisations/min_vs_max_hdi_radialplot.png (PNG copy)> <../hdi_vis
 ualisations/population_growth_ratio_boxplot.png (PNG copy)> <../hdi_visualisati
 ons/men_vs_women_mean_years_education_barchart.png (PNG copy)> <../hdi_visualis
 ations/hdi_global_heatmap.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
  (./CS3205LabReport1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `CS3205LabReport1.out' has not changed.
 (rerunfilecheck)             Checksum: 143F3B4B96BD232C636DF12A5974E55E;2037.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  ) 
 Here is how much of TeX's memory you used:
  8641 strings out of 483140
