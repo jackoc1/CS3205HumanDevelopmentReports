@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.15)  26 FEB 2022 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.15)  26 FEB 2022 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,22 +441,22 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./CS3205LabReport1.aux)
 \openout1 = `CS3205LabReport1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -515,7 +515,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box100
-Package hyperref Info: Link coloring ON on input line 51.
+Package hyperref Info: Link coloring ON on input line 60.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -527,33 +527,33 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
-LaTeX Info: Redefining \nameref on input line 51.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
 
 (./CS3205LabReport1.out) (./CS3205LabReport1.out)
 \@outlinefile=\write4
 \openout4 = `CS3205LabReport1.out'.
 
-<./images/ucc_crest.jpg, id=120, 501.875pt x 501.875pt>
+<./images/ucc_crest.jpg, id=88, 501.875pt x 501.875pt>
 File: ./images/ucc_crest.jpg Graphic file (type jpg)
 <use ./images/ucc_crest.jpg>
-Package pdftex.def Info: ./images/ucc_crest.jpg  used on input line 56.
+Package pdftex.def Info: ./images/ucc_crest.jpg  used on input line 65.
 (pdftex.def)             Requested size: 204.85672pt x 204.85878pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 57.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 66.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -565,91 +565,213 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \setcounter
+l.71 \setcounter
                 {page}{1} [2]
-<../hdi_visualisations/hdi_histogram.png, id=194, 1127.71312pt x 596.98032pt>
+<../hdi_visualisations/hdi_histogram.png, id=102, 1127.71312pt x 596.98032pt>
 File: ../hdi_visualisations/hdi_histogram.png Graphic file (type png)
 <use ../hdi_visualisations/hdi_histogram.png>
 Package pdftex.def Info: ../hdi_visualisations/hdi_histogram.png  used on input
- line 98.
+ line 107.
 (pdftex.def)             Requested size: 248.96162pt x 131.79153pt.
-<../hdi_visualisations/global_average_hdi_areachart.png, id=195, 1141.26375pt x
+<../hdi_visualisations/hdi_global_heatmap.png, id=104, 1128.46594pt x 596.98032
+pt>
+File: ../hdi_visualisations/hdi_global_heatmap.png Graphic file (type png)
+<use ../hdi_visualisations/hdi_global_heatmap.png>
+Package pdftex.def Info: ../hdi_visualisations/hdi_global_heatmap.png  used on 
+input line 110.
+(pdftex.def)             Requested size: 248.96162pt x 131.70044pt.
+<../hdi_visualisations/global_average_hdi_areachart.png, id=106, 1141.26375pt x
  596.98032pt>
 File: ../hdi_visualisations/global_average_hdi_areachart.png Graphic file (type
  png)
 <use ../hdi_visualisations/global_average_hdi_areachart.png>
 Package pdftex.def Info: ../hdi_visualisations/global_average_hdi_areachart.png
-  used on input line 102.
+  used on input line 113.
 (pdftex.def)             Requested size: 248.96162pt x 130.22475pt.
-<../hdi_visualisations/min_vs_max_hdi_radialplot.png, id=196, 691.83469pt x 538
+<../hdi_visualisations/min_vs_max_hdi_radialplot.png, id=108, 691.83469pt x 538
 .26094pt>
 File: ../hdi_visualisations/min_vs_max_hdi_radialplot.png Graphic file (type pn
 g)
 <use ../hdi_visualisations/min_vs_max_hdi_radialplot.png>
 Package pdftex.def Info: ../hdi_visualisations/min_vs_max_hdi_radialplot.png  u
-sed on input line 106.
+sed on input line 116.
 (pdftex.def)             Requested size: 248.96162pt x 193.69165pt.
-<../hdi_visualisations/population_growth_ratio_boxplot.png, id=197, 941.01563pt
- x 672.26157pt>
-File: ../hdi_visualisations/population_growth_ratio_boxplot.png Graphic file (t
-ype png)
-<use ../hdi_visualisations/population_growth_ratio_boxplot.png>
-Package pdftex.def Info: ../hdi_visualisations/population_growth_ratio_boxplot.
-png  used on input line 110.
-(pdftex.def)             Requested size: 248.96162pt x 177.85098pt.
  [1 <../hdi_visualisations/hdi_histogram.png (PNG copy)> <../hdi_visualisations
-/global_average_hdi_areachart.png (PNG copy)>]
-<../hdi_visualisations/men_vs_women_mean_years_education_barchart.png, id=206, 
+/hdi_global_heatmap.png (PNG copy)>]
+<../hdi_visualisations/men_vs_women_mean_years_education_barchart.png, id=120, 
 702.37407pt x 636.12656pt>
 File: ../hdi_visualisations/men_vs_women_mean_years_education_barchart.png Grap
 hic file (type png)
 <use ../hdi_visualisations/men_vs_women_mean_years_education_barchart.png>
 Package pdftex.def Info: ../hdi_visualisations/men_vs_women_mean_years_educatio
-n_barchart.png  used on input line 114.
+n_barchart.png  used on input line 119.
 (pdftex.def)             Requested size: 248.96162pt x 225.48192pt.
-<../hdi_visualisations/hdi_global_heatmap.png, id=207, 1128.46594pt x 596.98032
+<../hdi_visualisations/population_growth_ratio_boxplot.png, id=122, 941.01563pt
+ x 672.26157pt>
+File: ../hdi_visualisations/population_growth_ratio_boxplot.png Graphic file (t
+ype png)
+<use ../hdi_visualisations/population_growth_ratio_boxplot.png>
+Package pdftex.def Info: ../hdi_visualisations/population_growth_ratio_boxplot.
+png  used on input line 127.
+(pdftex.def)             Requested size: 248.96162pt x 177.85098pt.
+<../hdi_visualisations/mean_vs_expected_years_schooling_scatterplot.png, id=124
+, 707.64375pt x 672.26157pt>
+File: ../hdi_visualisations/mean_vs_expected_years_schooling_scatterplot.png Gr
+aphic file (type png)
+<use ../hdi_visualisations/mean_vs_expected_years_schooling_scatterplot.png>
+Package pdftex.def Info: ../hdi_visualisations/mean_vs_expected_years_schooling
+_scatterplot.png  used on input line 133.
+(pdftex.def)             Requested size: 248.96162pt x 236.5055pt.
+<../hdi_visualisations/fertility_vs_adolescent_birth_rate_scatterplot.png, id=1
+26, 752.0597pt x 672.26157pt>
+File: ../hdi_visualisations/fertility_vs_adolescent_birth_rate_scatterplot.png 
+Graphic file (type png)
+<use ../hdi_visualisations/fertility_vs_adolescent_birth_rate_scatterplot.png>
+Package pdftex.def Info: ../hdi_visualisations/fertility_vs_adolescent_birth_ra
+te_scatterplot.png  used on input line 139.
+(pdftex.def)             Requested size: 248.96162pt x 222.54453pt.
+ [2 <../hdi_visualisations/global_average_hdi_areachart.png (PNG copy)> <../hdi
+_visualisations/min_vs_max_hdi_radialplot.png (PNG copy)> <../hdi_visualisation
+s/men_vs_women_mean_years_education_barchart.png (PNG copy)> <../hdi_visualisat
+ions/population_growth_ratio_boxplot.png (PNG copy)>]
+<../hdi_visualisations/gni_vs_hdi_scatterplot.png, id=136, 698.61pt x 596.98032
 pt>
-File: ../hdi_visualisations/hdi_global_heatmap.png Graphic file (type png)
-<use ../hdi_visualisations/hdi_global_heatmap.png>
-Package pdftex.def Info: ../hdi_visualisations/hdi_global_heatmap.png  used on 
-input line 122.
-(pdftex.def)             Requested size: 248.96162pt x 131.70044pt.
+File: ../hdi_visualisations/gni_vs_hdi_scatterplot.png Graphic file (type png)
+<use ../hdi_visualisations/gni_vs_hdi_scatterplot.png>
+Package pdftex.def Info: ../hdi_visualisations/gni_vs_hdi_scatterplot.png  used
+ on input line 144.
+(pdftex.def)             Requested size: 248.96162pt x 212.74477pt.
+<../hdi_visualisations/percentage_women_in_government_vs_mean_years_education_s
+catterplot.png, id=138, 606.76688pt x 550.30594pt>
+File: ../hdi_visualisations/percentage_women_in_government_vs_mean_years_educat
+ion_scatterplot.png Graphic file (type png)
+<use ../hdi_visualisations/percentage_women_in_government_vs_mean_years_educati
+on_scatterplot.png>
+Package pdftex.def Info: ../hdi_visualisations/percentage_women_in_government_v
+s_mean_years_education_scatterplot.png  used on input line 148.
+(pdftex.def)             Requested size: 248.96162pt x 225.79483pt.
+<../hdi_visualisations/labour_force_participation_vs_gdp_scatterplot.png, id=14
+0, 749.80125pt x 637.63219pt>
+File: ../hdi_visualisations/labour_force_participation_vs_gdp_scatterplot.png G
+raphic file (type png)
+<use ../hdi_visualisations/labour_force_participation_vs_gdp_scatterplot.png>
+Package pdftex.def Info: ../hdi_visualisations/labour_force_participation_vs_gd
+p_scatterplot.png  used on input line 153.
+(pdftex.def)             Requested size: 248.96162pt x 211.71329pt.
+ [3 <../hdi_visualisations/mean_vs_expected_years_schooling_scatterplot.png (PN
+G copy)> <../hdi_visualisations/fertility_vs_adolescent_birth_rate_scatterplot.
+png (PNG copy)> <../hdi_visualisations/gni_vs_hdi_scatterplot.png (PNG copy)> <
+../hdi_visualisations/percentage_women_in_government_vs_mean_years_education_sc
+atterplot.png (PNG copy)>]
+<../hdi_visualisations/health_expenditure_ordered_by_life_expectancy.png, id=15
+0, 2893.05844pt x 659.46375pt>
+File: ../hdi_visualisations/health_expenditure_ordered_by_life_expectancy.png G
+raphic file (type png)
+<use ../hdi_visualisations/health_expenditure_ordered_by_life_expectancy.png>
+Package pdftex.def Info: ../hdi_visualisations/health_expenditure_ordered_by_li
+fe_expectancy.png  used on input line 159.
+(pdftex.def)             Requested size: 248.96162pt x 56.74295pt.
+<../hdi_visualisations/min_vs_max_hdi_sidebysidecircleplot.png, id=152, 5847.84
+75pt x 562.35094pt>
+File: ../hdi_visualisations/min_vs_max_hdi_sidebysidecircleplot.png Graphic fil
+e (type png)
+<use ../hdi_visualisations/min_vs_max_hdi_sidebysidecircleplot.png>
+Package pdftex.def Info: ../hdi_visualisations/min_vs_max_hdi_sidebysidecirclep
+lot.png  used on input line 168.
+(pdftex.def)             Requested size: 248.96162pt x 23.94035pt.
+<../hdi_visualisations/mean_vs_expected_years_schooling_bar_and_linegraph.png, 
+id=154, 551.05875pt x 575.14874pt>
+File: ../hdi_visualisations/mean_vs_expected_years_schooling_bar_and_linegraph.
+png Graphic file (type png)
+<use ../hdi_visualisations/mean_vs_expected_years_schooling_bar_and_linegraph.p
+ng>
+Package pdftex.def Info: ../hdi_visualisations/mean_vs_expected_years_schooling
+_bar_and_linegraph.png  used on input line 173.
+(pdftex.def)             Requested size: 248.96162pt x 259.85011pt.
+ [4 <../hdi_visualisations/labour_force_participation_vs_gdp_scatterplot.png (P
+NG copy)> <../hdi_visualisations/health_expenditure_ordered_by_life_expectancy.
+png (PNG copy)> <../hdi_visualisations/min_vs_max_hdi_sidebysidecircleplot.png 
+(PNG copy)> <../hdi_visualisations/mean_vs_expected_years_schooling_bar_and_lin
+egraph.png>]
+<../multidimensional_projections/corel/lsp/lsp_corel_projection_2.png, id=167, 
+1686.3pt x 1053.9375pt>
+File: ../multidimensional_projections/corel/lsp/lsp_corel_projection_2.png Grap
+hic file (type png)
+<use ../multidimensional_projections/corel/lsp/lsp_corel_projection_2.png>
+Package pdftex.def Info: ../multidimensional_projections/corel/lsp/lsp_corel_pr
+ojection_2.png  used on input line 184.
+(pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
+<../multidimensional_projections/corel/lsp/lsp_corel_projection_3.png, id=169, 
+1686.3pt x 1053.9375pt>
+File: ../multidimensional_projections/corel/lsp/lsp_corel_projection_3.png Grap
+hic file (type png)
+<use ../multidimensional_projections/corel/lsp/lsp_corel_projection_3.png>
+Package pdftex.def Info: ../multidimensional_projections/corel/lsp/lsp_corel_pr
+ojection_3.png  used on input line 188.
+(pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
+<../multidimensional_projections/corel/lsp/lsp_corel_projection_4.png, id=171, 
+1686.3pt x 1053.9375pt>
+File: ../multidimensional_projections/corel/lsp/lsp_corel_projection_4.png Grap
+hic file (type png)
+<use ../multidimensional_projections/corel/lsp/lsp_corel_projection_4.png>
+Package pdftex.def Info: ../multidimensional_projections/corel/lsp/lsp_corel_pr
+ojection_4.png  used on input line 192.
+(pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
+<../multidimensional_projections/corel/t-sne/t-sne_corel_projection_1.png, id=1
+73, 1686.3pt x 1053.9375pt>
+File: ../multidimensional_projections/corel/t-sne/t-sne_corel_projection_1.png 
+Graphic file (type png)
+<use ../multidimensional_projections/corel/t-sne/t-sne_corel_projection_1.png>
+Package pdftex.def Info: ../multidimensional_projections/corel/t-sne/t-sne_core
+l_projection_1.png  used on input line 198.
+(pdftex.def)             Requested size: 512.14963pt x 320.09155pt.
 
-[2 <../hdi_visualisations/min_vs_max_hdi_radialplot.png (PNG copy)> <../hdi_vis
-ualisations/population_growth_ratio_boxplot.png (PNG copy)> <../hdi_visualisati
-ons/men_vs_women_mean_years_education_barchart.png (PNG copy)> <../hdi_visualis
-ations/hdi_global_heatmap.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
- (./CS3205LabReport1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
-Package rerunfilecheck Info: File `CS3205LabReport1.out' has not changed.
-(rerunfilecheck)             Checksum: 143F3B4B96BD232C636DF12A5974E55E;2037.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+[5 <../multidimensional_projections/corel/lsp/lsp_corel_projection_2.png> <../m
+ultidimensional_projections/corel/lsp/lsp_corel_projection_3.png> <../multidime
+nsional_projections/corel/lsp/lsp_corel_projection_4.png> <../multidimensional_
+projections/corel/t-sne/t-sne_corel_projection_1.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
+
+(./CS3205LabReport1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
+
+
+Package rerunfilecheck Warning: File `CS3205LabReport1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CS3205LabReport1.out':
+(rerunfilecheck)             Before: C20B74AB179B4F55C0813F715AD26363;1484
+(rerunfilecheck)             After:  FAFF8B022A7B695FACB8E56D5F34FA95;2980.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  ) 
 Here is how much of TeX's memory you used:
- 8641 strings out of 483140
- 126080 string characters out of 5965151
- 414594 words of memory out of 5000000
- 23439 multiletter control sequences out of 15000+600000
- 543507 words of font info for 55 fonts, out of 8000000 for 9000
+ 8758 strings out of 483140
+ 131893 string characters out of 5965151
+ 415065 words of memory out of 5000000
+ 23519 multiletter control sequences out of 15000+600000
+ 542259 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 34i,7n,33p,238b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/jack-o-connor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
+ 34i,7n,37p,326b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/jack-o-connor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx
 1095.600pk> </home/jack-o-connor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx1200.600pk> </home/jack-o-connor/.texlive2019/texmf-var/fonts/pk/ljfou
+n/ec/tcrm1095.600pk> </home/jack-o-connor/.texlive2019/texmf-var/fonts/pk/ljfou
 r/jknappen/ec/ecrm1095.600pk> </home/jack-o-connor/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/jack-o-connor/.texlive2019/texmf-
+/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/jack-o-connor/.texlive2019/texmf-
 var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/jack-o-connor/.texlive20
 19/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/jack-o-connor/.
 texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on CS3205LabReport1.pdf (5 pages, 1161167 bytes).
+Output written on CS3205LabReport1.pdf (8 pages, 3924506 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
- 241 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 221 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 

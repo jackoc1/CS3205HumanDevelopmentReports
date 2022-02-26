@@ -22,11 +22,20 @@
 \hypersetup{
     colorlinks,
     linktoc=all,
-    urlcolor=blue
+    urlcolor=blue,
     linkcolor=black,
 }
 
-\newcommand\fig[3]{
+\newcommand\fig[2]{
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{#1}
+  \caption{#2} 
+  \label{fig:#1}
+\end{figure}
+}
+
+\newcommand\onlinefig[3]{
 \begin{figure}[H]
   \centering
   \href{#3}{\includegraphics[width=\linewidth]{#1}}
@@ -44,7 +53,7 @@
 \author{Jack O'Connor}
 \date{\today}
 
-\graphicspath{ {../hdi_visualisations/} {../multidimensional_projections} {./images/} }
+\graphicspath{ {../hdi_visualisations/} {../multidimensional_projections/} {./images/} }
 \setlength{\columnsep}{0.5cm}
 \pagenumbering{gobble}
 
@@ -61,7 +70,7 @@
 \pagebreak
 \setcounter{page}{1}
 
-\begin{multicols}{2}
+
 \pagenumbering{arabic}
 \section{Introduction}
 \subsection{The Problem}
@@ -73,7 +82,7 @@ the datasets
 \subsection{The Role of Visualisations}
 the role of visualisations
 
-
+\begin{multicols}{2}
 \section{Data Description}
 \subsection{hdr.xlsx}
 Description of data.
@@ -95,62 +104,239 @@ Each of the following visualisations will include:
 \end{itemize}
 
 \subsubsection{HDI Histogram}
-\fig{hdi_histogram}{my hdi caption}
-a
+\onlinefig{hdi_histogram}{my hdi caption}{https://public.tableau.com/views/CS3205-HDI/Sheet6?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
-\subsubsection{Global Average HDI}
-\fig{global_average_hdi_areachart}{no dips}
-a
+\subsubsection{HDI Global Heatmap}
+\onlinefig{hdi_global_heatmap}{what a pretty map}{https://public.tableau.com/views/CS3205-HDI/Sheet3?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
-\subsubsection{Min/Max HDI Radial Plot}
-\fig{min_vs_max_hdi_radialplot}{going in circles}
-a
+\subsubsection{Average HDI Trend}
+\onlinefig{global_average_hdi_areachart}{no dips}{https://public.tableau.com/views/CS3205_hdi_csv/Sheet2?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
-\subsubsection{Expected Population Growth}
-\fig{population_growth_ratio_boxplot}{sexy visual}
-a
+\subsubsection{Min/Max HDI}
+\onlinefig{min_vs_max_hdi_radialplot}{going in circles}{https://user-images.githubusercontent.com/56483187/155840052-f17e03e9-c48b-4dfd-8096-2bd5f066dd91.png}
 
-\subsubsection{Male/Female Average Years Education}
-\fig{men_vs_women_mean_years_education_barchart}{girl power}
-a
+\subsubsection{Male/Female Mean Years Education}
+\onlinefig{men_vs_women_mean_years_education_barchart}{girl power}{https://public.tableau.com/views/CS3205-HDI/Sheet2?:language=en-GB&:display_count=n&:origin=viz_share_link}
+
 
 \subsection{Specific Observations}
 In the specific observations section of the assignment I have created visualisaions in line with the task list specifications.
 
 \subsubsection{Spurious Values}
-\subsubsection{HDI Global Heatmap}
-\fig{hdi_global_heatmap}{what a pretty map}
-a
+\textbf{Expected Population Growth}
+\onlinefig{population_growth_ratio_boxplot}{sexy visual spurious values}{https://public.tableau.com/views/CS3205-HDI/Sheet11?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
-\subsubsection{Correlated/Uncorrelated Attributes}
-a
+\begin{flushleft}
+\textbf{Mean vs Expected Years Schooling}
+\end{flushleft}
+\vspace{-2cm}
+\onlinefig{mean_vs_expected_years_schooling_scatterplot.png}{spurious value 2}{https://public.tableau.com/views/CS3205-HDI/Sheet7?:language=en-GB&:display_count=n&:origin=viz_share_link}
+
+\subsubsection{Correlated Attributes}
+\begin{flushleft}
+\textbf{Fertility Rate vs Adolescent Birth Rate}
+\end{flushleft}
+\onlinefig{fertility_vs_adolescent_birth_rate_scatterplot}{Early have children more children you have}{https://public.tableau.com/views/CS3205-HDI/Sheet10?:language=en-GB&:display_count=n&:origin=viz_share_link}
+
+\begin{flushleft}
+\textbf{HDI vs Gross National Income}
+\end{flushleft}
+\onlinefig{gni_vs_hdi_scatterplot}{GNI accounts almost totally for HDI}{https://public.tableau.com/views/CS3205-HDI/Sheet5?:language=en-GB&:display_count=n&:origin=viz_share_link}
+
+\subsubsection{Uncorrelated Attributes}
+\textbf{Women Share of Seats in Government vs Average Years Education}
+\onlinefig{percentage_women_in_government_vs_mean_years_education_scatterplot.png}{Surprising}{https://public.tableau.com/views/CS3205-HDI/Sheet12?:language=en-GB&:display_count=n&:origin=viz_share_link}
+
+\begin{flushleft}
+\textbf{Labour Force Participation vs GDP}
+\end{flushleft}
+\onlinefig{labour_force_participation_vs_gdp_scatterplot}{Surprising}{https://public.tableau.com/views/CS3205-HDI/Sheet13?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
 \subsubsection{Hypotheses for Previous Patterns}
-a
+\begin{flushleft}
+\textbf{Health Expenditure ordered by Life Expectancy}
+\end{flushleft}
+\onlinefig{health_expenditure_ordered_by_life_expectancy}{think of caption}{https://public.tableau.com/views/CS3205-HDI/Sheet9?:language=en-GB&:display_count=n&:origin=viz_share_link}
 
 \subsubsection{Usefulness of All Visualisations}
-a
+
 
 \subsubsection{Alternative Visualisations}
-a
+\begin{flushleft}
+\textbf{Min/Max HDI Alternative}
+\end{flushleft}
+\onlinefig{min_vs_max_hdi_sidebysidecircleplot}{too long for computer screen, can do horizontal line comparisons}{https://public.tableau.com/views/CS3205_hdi_csv/Sheet1?:language=en-GB&:display_count=n&:origin=viz_share_link}
+
+\begin{flushleft}
+\textbf{Mean vs Expected Years Schooling}
+\end{flushleft}
+\onlinefig{mean_vs_expected_years_schooling_bar_and_linegraph}{Lose individual countries}{https://public.tableau.com/views/CS3205-HDI/Sheet4?:language=en-GB&:display_count=n&:origin=viz_share_link}
+
+\end{multicols}
+\pagebreak
 
 
 \section{Task 2}
 Results for task 2.
 \subsection{Corel Projections Comparison}
-a
+\subsubsection{LSP}
+\begin{multicols}{3}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\vfill\null
+\columnbreak
+\end{multicols}
+
+\subsubsection{t-SNE}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\vfill\null
+\columnbreak
+\end{multicols}
+
+\subsubsection{PCA}
+
 
 \subsection{CBR Projections Comparison}
-a
+\subsubsection{LSP}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\vfill\null
+\columnbreak
 
-\subsection{Dataset 1 Projections Comparison}
-a
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\vfill\null
+\columnbreak
 
-\subsection{Dataset 2 Projections Comparison}
-a
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\vfill\null
+\columnbreak
+\end{multicols}
+
+\subsubsection{t-SNE}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\vfill\null
+\columnbreak
+\end{multicols}
+
+\subsubsection{ProjClus}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\vfill\null
+\columnbreak
+\end{multicols}
+
+
+\subsection{Medical Images Projections Comparison}
+\subsubsection{LSP}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\vfill\null
+\columnbreak
+\end{multicols}
+
+\subsubsection{t-SNE}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\vfill\null
+\columnbreak
+\end{multicols}
+
+\subsubsection{PCA}
+
+
+\subsection{News Headlines Projections Comparison}
+\subsubsection{LSP}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\vfill\null
+\columnbreak
+\end{multicols}
+
+\subsubsection{t-SNE}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\vfill\null
+\columnbreak
+\end{multicols}
+
+\subsubsection{ProjClus}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\vfill\null
+\columnbreak
+\end{multicols}
+
 
 \subsection{Projections of HDR}
-a
+\subsubsection{LSP}
+
+\subsubsection{t-SNE}
+
+\subsubsection{PCA}
 
 
 \section{Conclusions}
@@ -160,5 +346,4 @@ Conclusions from overall assignment, emphasis on data sets, exercises and using 
 \section{References}
 References?
 
-\end{multicols}
 \end{document}
