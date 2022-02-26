@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.15)  26 FEB 2022 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.15)  26 FEB 2022 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -663,126 +663,165 @@ rts, each tackling its own separate area of data visualisation.
  []
 
 [1]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.118 \textbf{hdi_pivoted.csv}
+                               was created using \textbf{pivot\_hdi\_levels....
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.118 \textbf{hdi_pivoted.csv}
+                               was created using \textbf{pivot\_hdi\_levels....
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.119 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (2257.16582pt too wide) in paragraph at lines 118--119
+[]\T1/ptm/b/n/10.95 hdi$[]\OML/ztmcm/m/it/10.95 ivoted:csvwascreatedusing[]andi
+tperformsapivottransformationsuchthatinsteadofhavingaYEARcolumnforeachyearinthe
+period; aYEARcolumnandHDIcolumnpairisused:Thisdrasticallyreducesthenumberofrepe
+titiveattributesinthedatasetattheexpenseofintroducingrepeatvaluesforCOUNTRY[]NA
+MEANDCOUNTRY[]CODEtomakeupfortheincreasednumberofrowsinthedataset:Thistransform
+ationwasespeciallyusefulforaggregatingdatabyyearandcountry; sinceitcutdownonthe
+numberofattributeswhichhadtobeincludedinanyvisualisation:AHDI[]Labelcolumnwasal
+soaddedtothisdataset:$ 
+ []
+
+[2]
+Underfull \hbox (badness 8151) in paragraph at lines 127--128
+\T1/ptm/b/n/10.95 which give a broad overview of the general
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-26.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+31.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<../hdi_visualisations/hdi_histogram.png, id=288, 1127.71312pt x 596.98032pt>
+<../hdi_visualisations/hdi_histogram.png, id=299, 1127.71312pt x 596.98032pt>
 File: ../hdi_visualisations/hdi_histogram.png Graphic file (type png)
 <use ../hdi_visualisations/hdi_histogram.png>
 Package pdftex.def Info: ../hdi_visualisations/hdi_histogram.png  used on input
- line 133.
+ line 138.
 (pdftex.def)             Requested size: 248.96162pt x 131.79153pt.
-<../hdi_visualisations/hdi_global_heatmap.png, id=290, 1128.46594pt x 596.98032
+<../hdi_visualisations/hdi_global_heatmap.png, id=301, 1128.46594pt x 596.98032
 pt>
 File: ../hdi_visualisations/hdi_global_heatmap.png Graphic file (type png)
 <use ../hdi_visualisations/hdi_global_heatmap.png>
 Package pdftex.def Info: ../hdi_visualisations/hdi_global_heatmap.png  used on 
-input line 136.
+input line 141.
 (pdftex.def)             Requested size: 248.96162pt x 131.70044pt.
-<../hdi_visualisations/global_average_hdi_areachart.png, id=292, 1141.26375pt x
+<../hdi_visualisations/global_average_hdi_areachart.png, id=303, 1141.26375pt x
  596.98032pt>
 File: ../hdi_visualisations/global_average_hdi_areachart.png Graphic file (type
  png)
 <use ../hdi_visualisations/global_average_hdi_areachart.png>
 Package pdftex.def Info: ../hdi_visualisations/global_average_hdi_areachart.png
-  used on input line 139.
+  used on input line 144.
 (pdftex.def)             Requested size: 248.96162pt x 130.22475pt.
-<../hdi_visualisations/min_vs_max_hdi_radialplot.png, id=294, 691.83469pt x 538
+<../hdi_visualisations/min_vs_max_hdi_radialplot.png, id=305, 691.83469pt x 538
 .26094pt>
 File: ../hdi_visualisations/min_vs_max_hdi_radialplot.png Graphic file (type pn
 g)
 <use ../hdi_visualisations/min_vs_max_hdi_radialplot.png>
 Package pdftex.def Info: ../hdi_visualisations/min_vs_max_hdi_radialplot.png  u
-sed on input line 142.
+sed on input line 147.
 (pdftex.def)             Requested size: 248.96162pt x 193.69165pt.
- [2 <../hdi_visualisations/hdi_histogram.png (PNG copy)> <../hdi_visualisations
-/hdi_global_heatmap.png (PNG copy)> <../hdi_visualisations/global_average_hdi_a
-reachart.png (PNG copy)>]
-<../hdi_visualisations/men_vs_women_mean_years_education_barchart.png, id=306, 
+<../hdi_visualisations/men_vs_women_mean_years_education_barchart.png, id=307, 
 702.37407pt x 636.12656pt>
 File: ../hdi_visualisations/men_vs_women_mean_years_education_barchart.png Grap
 hic file (type png)
 <use ../hdi_visualisations/men_vs_women_mean_years_education_barchart.png>
 Package pdftex.def Info: ../hdi_visualisations/men_vs_women_mean_years_educatio
-n_barchart.png  used on input line 145.
+n_barchart.png  used on input line 150.
 (pdftex.def)             Requested size: 248.96162pt x 225.48192pt.
-<../hdi_visualisations/population_growth_ratio_boxplot.png, id=308, 941.01563pt
+<../hdi_visualisations/population_growth_ratio_boxplot.png, id=309, 941.01563pt
  x 672.26157pt>
 File: ../hdi_visualisations/population_growth_ratio_boxplot.png Graphic file (t
 ype png)
 <use ../hdi_visualisations/population_growth_ratio_boxplot.png>
 Package pdftex.def Info: ../hdi_visualisations/population_growth_ratio_boxplot.
-png  used on input line 153.
+png  used on input line 158.
 (pdftex.def)             Requested size: 248.96162pt x 177.85098pt.
-<../hdi_visualisations/mean_vs_expected_years_schooling_scatterplot.png, id=310
+ [3 <../hdi_visualisations/hdi_histogram.png (PNG copy)> <../hdi_visualisations
+/hdi_global_heatmap.png (PNG copy)> <../hdi_visualisations/global_average_hdi_a
+reachart.png (PNG copy)> <../hdi_visualisations/min_vs_max_hdi_radialplot.png (
+PNG copy)>]
+<../hdi_visualisations/mean_vs_expected_years_schooling_scatterplot.png, id=319
 , 707.64375pt x 672.26157pt>
 File: ../hdi_visualisations/mean_vs_expected_years_schooling_scatterplot.png Gr
 aphic file (type png)
 <use ../hdi_visualisations/mean_vs_expected_years_schooling_scatterplot.png>
 Package pdftex.def Info: ../hdi_visualisations/mean_vs_expected_years_schooling
-_scatterplot.png  used on input line 159.
+_scatterplot.png  used on input line 164.
 (pdftex.def)             Requested size: 248.96162pt x 236.5055pt.
 <../hdi_visualisations/fertility_vs_adolescent_birth_rate_scatterplot.png, id=3
-12, 752.0597pt x 672.26157pt>
+21, 752.0597pt x 672.26157pt>
 File: ../hdi_visualisations/fertility_vs_adolescent_birth_rate_scatterplot.png 
 Graphic file (type png)
 <use ../hdi_visualisations/fertility_vs_adolescent_birth_rate_scatterplot.png>
 Package pdftex.def Info: ../hdi_visualisations/fertility_vs_adolescent_birth_ra
-te_scatterplot.png  used on input line 165.
+te_scatterplot.png  used on input line 170.
 (pdftex.def)             Requested size: 248.96162pt x 222.54453pt.
- [3 <../hdi_visualisations/min_vs_max_hdi_radialplot.png (PNG copy)> <../hdi_vi
-sualisations/men_vs_women_mean_years_education_barchart.png (PNG copy)> <../hdi
-_visualisations/population_growth_ratio_boxplot.png (PNG copy)> <../hdi_visuali
-sations/mean_vs_expected_years_schooling_scatterplot.png (PNG copy)>]
-<../hdi_visualisations/gni_vs_hdi_scatterplot.png, id=322, 698.61pt x 596.98032
+<../hdi_visualisations/gni_vs_hdi_scatterplot.png, id=323, 698.61pt x 596.98032
 pt>
 File: ../hdi_visualisations/gni_vs_hdi_scatterplot.png Graphic file (type png)
 <use ../hdi_visualisations/gni_vs_hdi_scatterplot.png>
 Package pdftex.def Info: ../hdi_visualisations/gni_vs_hdi_scatterplot.png  used
- on input line 170.
+ on input line 175.
 (pdftex.def)             Requested size: 248.96162pt x 212.74477pt.
+ [4 <../hdi_visualisations/men_vs_women_mean_years_education_barchart.png (PNG 
+copy)> <../hdi_visualisations/population_growth_ratio_boxplot.png (PNG copy)> <
+../hdi_visualisations/mean_vs_expected_years_schooling_scatterplot.png (PNG cop
+y)> <../hdi_visualisations/fertility_vs_adolescent_birth_rate_scatterplot.png (
+PNG copy)>]
 <../hdi_visualisations/percentage_women_in_government_vs_mean_years_education_s
-catterplot.png, id=324, 606.76688pt x 550.30594pt>
+catterplot.png, id=333, 606.76688pt x 550.30594pt>
 File: ../hdi_visualisations/percentage_women_in_government_vs_mean_years_educat
 ion_scatterplot.png Graphic file (type png)
 <use ../hdi_visualisations/percentage_women_in_government_vs_mean_years_educati
 on_scatterplot.png>
 Package pdftex.def Info: ../hdi_visualisations/percentage_women_in_government_v
-s_mean_years_education_scatterplot.png  used on input line 174.
+s_mean_years_education_scatterplot.png  used on input line 179.
 (pdftex.def)             Requested size: 248.96162pt x 225.79483pt.
-<../hdi_visualisations/labour_force_participation_vs_gdp_scatterplot.png, id=32
-6, 749.80125pt x 637.63219pt>
+<../hdi_visualisations/labour_force_participation_vs_gdp_scatterplot.png, id=33
+5, 749.80125pt x 637.63219pt>
 File: ../hdi_visualisations/labour_force_participation_vs_gdp_scatterplot.png G
 raphic file (type png)
 <use ../hdi_visualisations/labour_force_participation_vs_gdp_scatterplot.png>
 Package pdftex.def Info: ../hdi_visualisations/labour_force_participation_vs_gd
-p_scatterplot.png  used on input line 179.
+p_scatterplot.png  used on input line 184.
 (pdftex.def)             Requested size: 248.96162pt x 211.71329pt.
-<../hdi_visualisations/health_expenditure_ordered_by_life_expectancy.png, id=32
-8, 2893.05844pt x 659.46375pt>
+<../hdi_visualisations/health_expenditure_ordered_by_life_expectancy.png, id=33
+7, 2893.05844pt x 659.46375pt>
 File: ../hdi_visualisations/health_expenditure_ordered_by_life_expectancy.png G
 raphic file (type png)
 <use ../hdi_visualisations/health_expenditure_ordered_by_life_expectancy.png>
 Package pdftex.def Info: ../hdi_visualisations/health_expenditure_ordered_by_li
-fe_expectancy.png  used on input line 185.
+fe_expectancy.png  used on input line 190.
 (pdftex.def)             Requested size: 248.96162pt x 56.74295pt.
-<../hdi_visualisations/min_vs_max_hdi_sidebysidecircleplot.png, id=330, 5847.84
+<../hdi_visualisations/min_vs_max_hdi_sidebysidecircleplot.png, id=339, 5847.84
 75pt x 562.35094pt>
 File: ../hdi_visualisations/min_vs_max_hdi_sidebysidecircleplot.png Graphic fil
 e (type png)
 <use ../hdi_visualisations/min_vs_max_hdi_sidebysidecircleplot.png>
 Package pdftex.def Info: ../hdi_visualisations/min_vs_max_hdi_sidebysidecirclep
-lot.png  used on input line 194.
+lot.png  used on input line 199.
 (pdftex.def)             Requested size: 248.96162pt x 23.94035pt.
-
-[4 <../hdi_visualisations/fertility_vs_adolescent_birth_rate_scatterplot.png (P
-NG copy)> <../hdi_visualisations/gni_vs_hdi_scatterplot.png (PNG copy)> <../hdi
-_visualisations/percentage_women_in_government_vs_mean_years_education_scatterp
-lot.png (PNG copy)> <../hdi_visualisations/labour_force_participation_vs_gdp_sc
-atterplot.png (PNG copy)> <../hdi_visualisations/health_expenditure_ordered_by_
-life_expectancy.png (PNG copy)>]
 <../hdi_visualisations/mean_vs_expected_years_schooling_bar_and_linegraph.png, 
 id=341, 551.05875pt x 575.14874pt>
 File: ../hdi_visualisations/mean_vs_expected_years_schooling_bar_and_linegraph.
@@ -790,62 +829,67 @@ png Graphic file (type png)
 <use ../hdi_visualisations/mean_vs_expected_years_schooling_bar_and_linegraph.p
 ng>
 Package pdftex.def Info: ../hdi_visualisations/mean_vs_expected_years_schooling
-_bar_and_linegraph.png  used on input line 199.
+_bar_and_linegraph.png  used on input line 204.
 (pdftex.def)             Requested size: 248.96162pt x 259.85011pt.
- [5 <../hdi_visualisations/min_vs_max_hdi_sidebysidecircleplot.png (PNG copy)> 
-<../hdi_visualisations/mean_vs_expected_years_schooling_bar_and_linegraph.png>]
-<../multidimensional_projections/corel/lsp/lsp_corel_projection_2.png, id=352, 
+ [5 <../hdi_visualisations/gni_vs_hdi_scatterplot.png (PNG copy)> <../hdi_visua
+lisations/percentage_women_in_government_vs_mean_years_education_scatterplot.pn
+g (PNG copy)> <../hdi_visualisations/labour_force_participation_vs_gdp_scatterp
+lot.png (PNG copy)> <../hdi_visualisations/health_expenditure_ordered_by_life_e
+xpectancy.png (PNG copy)> <../hdi_visualisations/min_vs_max_hdi_sidebysidecircl
+eplot.png (PNG copy)>] [6 <../hdi_visualisations/mean_vs_expected_years_schooli
+ng_bar_and_linegraph.png>]
+<../multidimensional_projections/corel/lsp/lsp_corel_projection_2.png, id=360, 
 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/corel/lsp/lsp_corel_projection_2.png Grap
 hic file (type png)
 <use ../multidimensional_projections/corel/lsp/lsp_corel_projection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/lsp/lsp_corel_pr
-ojection_2.png  used on input line 210.
+ojection_2.png  used on input line 215.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projection_2.
-png, id=354, 431.6125pt x 451.6875pt>
+png, id=362, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projecti
 on_2.png Graphic file (type png)
 <use ../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projectio
 n_2.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/lsp/stress_curve
-_lsp_corel_projection_2.png  used on input line 211.
+_lsp_corel_projection_2.png  used on input line 216.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/corel/lsp/lsp_corel_projection_3.png, id=356, 
+<../multidimensional_projections/corel/lsp/lsp_corel_projection_3.png, id=364, 
 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/corel/lsp/lsp_corel_projection_3.png Grap
 hic file (type png)
 <use ../multidimensional_projections/corel/lsp/lsp_corel_projection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/lsp/lsp_corel_pr
-ojection_3.png  used on input line 215.
+ojection_3.png  used on input line 220.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projection_3.
-png, id=358, 431.6125pt x 451.6875pt>
+png, id=366, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projecti
 on_3.png Graphic file (type png)
 <use ../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projectio
 n_3.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/lsp/stress_curve
-_lsp_corel_projection_3.png  used on input line 216.
+_lsp_corel_projection_3.png  used on input line 221.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/corel/lsp/lsp_corel_projection_4.png, id=360, 
+<../multidimensional_projections/corel/lsp/lsp_corel_projection_4.png, id=368, 
 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/corel/lsp/lsp_corel_projection_4.png Grap
 hic file (type png)
 <use ../multidimensional_projections/corel/lsp/lsp_corel_projection_4.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/lsp/lsp_corel_pr
-ojection_4.png  used on input line 220.
+ojection_4.png  used on input line 225.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projection_4.
-png, id=362, 431.6125pt x 451.6875pt>
+png, id=370, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projecti
 on_4.png Graphic file (type png)
 <use ../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projectio
 n_4.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/lsp/stress_curve
-_lsp_corel_projection_4.png  used on input line 221.
+_lsp_corel_projection_4.png  used on input line 226.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [6 <../multidimensional_projections/corel/lsp/lsp_corel_projection_2.png> <../
+ [7 <../multidimensional_projections/corel/lsp/lsp_corel_projection_2.png> <../
 multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projection_2.png 
 (PNG copy)> <../multidimensional_projections/corel/lsp/lsp_corel_projection_3.p
 ng> <../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_projectio
@@ -853,193 +897,194 @@ n_3.png (PNG copy)> <../multidimensional_projections/corel/lsp/lsp_corel_projec
 tion_4.png> <../multidimensional_projections/corel/lsp/stress_curve_lsp_corel_p
 rojection_4.png (PNG copy)>]
 <../multidimensional_projections/corel/t-sne/t-sne_corel_projection_1.png, id=3
-77, 1686.3pt x 1053.9375pt>
+85, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/corel/t-sne/t-sne_corel_projection_1.png 
 Graphic file (type png)
 <use ../multidimensional_projections/corel/t-sne/t-sne_corel_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/t-sne/t-sne_core
-l_projection_1.png  used on input line 228.
+l_projection_1.png  used on input line 233.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/corel/t-sne/euclidean_stress_curve_t-sne_corel
-_projection_1.png, id=379, 431.6125pt x 451.6875pt>
+_projection_1.png, id=387, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/corel/t-sne/euclidean_stress_curve_t-sne_
 corel_projection_1.png Graphic file (type png)
 <use ../multidimensional_projections/corel/t-sne/euclidean_stress_curve_t-sne_c
 orel_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/t-sne/euclidean_
-stress_curve_t-sne_corel_projection_1.png  used on input line 229.
+stress_curve_t-sne_corel_projection_1.png  used on input line 234.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/corel/t-sne/t-sne_corel_projection_2.png, id=3
-81, 1686.3pt x 1053.9375pt>
+89, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/corel/t-sne/t-sne_corel_projection_2.png 
 Graphic file (type png)
 <use ../multidimensional_projections/corel/t-sne/t-sne_corel_projection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/t-sne/t-sne_core
-l_projection_2.png  used on input line 233.
+l_projection_2.png  used on input line 238.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/corel/t-sne/cosine_stress_curve_t-sne_corel_pr
-ojection_2.png, id=383, 431.6125pt x 451.6875pt>
+ojection_2.png, id=391, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/corel/t-sne/cosine_stress_curve_t-sne_cor
 el_projection_2.png Graphic file (type png)
 <use ../multidimensional_projections/corel/t-sne/cosine_stress_curve_t-sne_core
 l_projection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/t-sne/cosine_str
-ess_curve_t-sne_corel_projection_2.png  used on input line 234.
+ess_curve_t-sne_corel_projection_2.png  used on input line 239.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/corel/t-sne/t-sne_corel_projection_3.png, id=3
-85, 1686.3pt x 1053.9375pt>
+93, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/corel/t-sne/t-sne_corel_projection_3.png 
 Graphic file (type png)
 <use ../multidimensional_projections/corel/t-sne/t-sne_corel_projection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/t-sne/t-sne_core
-l_projection_3.png  used on input line 238.
+l_projection_3.png  used on input line 243.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/corel/t-sne/euclidean_stress_curve_t-sne_corel
-_projection_3.png, id=387, 431.6125pt x 451.6875pt>
+_projection_3.png, id=395, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/corel/t-sne/euclidean_stress_curve_t-sne_
 corel_projection_3.png Graphic file (type png)
 <use ../multidimensional_projections/corel/t-sne/euclidean_stress_curve_t-sne_c
 orel_projection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/t-sne/euclidean_
-stress_curve_t-sne_corel_projection_3.png  used on input line 239.
+stress_curve_t-sne_corel_projection_3.png  used on input line 244.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [7 <../multidimensional_projections/corel/t-sne/t-sne_corel_projection_1.png> 
+ [8 <../multidimensional_projections/corel/t-sne/t-sne_corel_projection_1.png> 
 <../multidimensional_projections/corel/t-sne/euclidean_stress_curve_t-sne_corel
 _projection_1.png (PNG copy)> <../multidimensional_projections/corel/t-sne/t-sn
 e_corel_projection_2.png> <../multidimensional_projections/corel/t-sne/cosine_s
 tress_curve_t-sne_corel_projection_2.png (PNG copy)> <../multidimensional_proje
 ctions/corel/t-sne/t-sne_corel_projection_3.png> <../multidimensional_projectio
 ns/corel/t-sne/euclidean_stress_curve_t-sne_corel_projection_3.png (PNG copy)>]
-<../multidimensional_projections/corel/pca/pca_corel_projection_1.png, id=402, 
+<../multidimensional_projections/corel/pca/pca_corel_projection_1.png, id=410, 
 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/corel/pca/pca_corel_projection_1.png Grap
 hic file (type png)
 <use ../multidimensional_projections/corel/pca/pca_corel_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/pca/pca_corel_pr
-ojection_1.png  used on input line 246.
+ojection_1.png  used on input line 251.
 (pdftex.def)             Requested size: 248.96162pt x 155.59113pt.
 <../multidimensional_projections/corel/pca/euclidean_stress_curve_pca_corel_pro
-jection_1.png, id=404, 431.6125pt x 451.6875pt>
+jection_1.png, id=412, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/corel/pca/euclidean_stress_curve_pca_core
 l_projection_1.png Graphic file (type png)
 <use ../multidimensional_projections/corel/pca/euclidean_stress_curve_pca_corel
 _projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/corel/pca/euclidean_st
-ress_curve_pca_corel_projection_1.png  used on input line 248.
+ress_curve_pca_corel_projection_1.png  used on input line 253.
 (pdftex.def)             Requested size: 248.96162pt x 260.53845pt.
- [8 <../multidimensional_projections/corel/pca/pca_corel_projection_1.png> <../
+ [9 <../multidimensional_projections/corel/pca/pca_corel_projection_1.png> <../
 multidimensional_projections/corel/pca/euclidean_stress_curve_pca_corel_project
 ion_1.png (PNG copy)>]
-<../multidimensional_projections/cbr/lsp/lsp_cbr_projection_1.png, id=413, 1686
+<../multidimensional_projections/cbr/lsp/lsp_cbr_projection_1.png, id=421, 1686
 .3pt x 1053.9375pt>
 File: ../multidimensional_projections/cbr/lsp/lsp_cbr_projection_1.png Graphic 
 file (type png)
 <use ../multidimensional_projections/cbr/lsp/lsp_cbr_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/lsp/lsp_cbr_projec
-tion_1.png  used on input line 256.
+tion_1.png  used on input line 261.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_1.png,
- id=415, 431.6125pt x 451.6875pt>
+ id=423, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_1
 .png Graphic file (type png)
 <use ../multidimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_1.
 png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/lsp/stress_curve_l
-sp_cbr_projection_1.png  used on input line 257.
+sp_cbr_projection_1.png  used on input line 262.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/cbr/lsp/lsp_cbr_projection_2.png, id=417, 1686
+<../multidimensional_projections/cbr/lsp/lsp_cbr_projection_2.png, id=425, 1686
 .3pt x 1053.9375pt>
 File: ../multidimensional_projections/cbr/lsp/lsp_cbr_projection_2.png Graphic 
 file (type png)
 <use ../multidimensional_projections/cbr/lsp/lsp_cbr_projection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/lsp/lsp_cbr_projec
-tion_2.png  used on input line 261.
+tion_2.png  used on input line 266.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_2.png,
- id=419, 431.6125pt x 451.6875pt>
+ id=427, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_2
 .png Graphic file (type png)
 <use ../multidimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_2.
 png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/lsp/stress_curve_l
-sp_cbr_projection_2.png  used on input line 262.
+sp_cbr_projection_2.png  used on input line 267.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/cbr/lsp/lsp_cbr_projection_3.png, id=421, 1686
+<../multidimensional_projections/cbr/lsp/lsp_cbr_projection_3.png, id=429, 1686
 .3pt x 1053.9375pt>
 File: ../multidimensional_projections/cbr/lsp/lsp_cbr_projection_3.png Graphic 
 file (type png)
 <use ../multidimensional_projections/cbr/lsp/lsp_cbr_projection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/lsp/lsp_cbr_projec
-tion_3.png  used on input line 266.
+tion_3.png  used on input line 271.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_3.png,
- id=423, 431.6125pt x 451.6875pt>
+ id=431, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_3
 .png Graphic file (type png)
 <use ../multidimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_3.
 png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/lsp/stress_curve_l
-sp_cbr_projection_3.png  used on input line 267.
+sp_cbr_projection_3.png  used on input line 272.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [9 <../multidimensional_projections/cbr/lsp/lsp_cbr_projection_1.png> <../mult
+
+[10 <../multidimensional_projections/cbr/lsp/lsp_cbr_projection_1.png> <../mult
 idimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_1.png (PNG cop
 y)> <../multidimensional_projections/cbr/lsp/lsp_cbr_projection_2.png> <../mult
 idimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_2.png (PNG cop
 y)> <../multidimensional_projections/cbr/lsp/lsp_cbr_projection_3.png> <../mult
 idimensional_projections/cbr/lsp/stress_curve_lsp_cbr_projection_3.png (PNG cop
 y)>]
-<../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_1.png, id=439, 
+<../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_1.png, id=447, 
 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_1.png Grap
 hic file (type png)
 <use ../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/t-sne/t-sne_cbr_pr
-ojection_1.png  used on input line 274.
+ojection_1.png  used on input line 279.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projection_1.
-png, id=441, 431.6125pt x 451.6875pt>
+png, id=449, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projecti
 on_1.png Graphic file (type png)
 <use ../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projectio
 n_1.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/t-sne/stress_curve
-_t-sne_cbr_projection_1.png  used on input line 275.
+_t-sne_cbr_projection_1.png  used on input line 280.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_2.png, id=443, 
+<../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_2.png, id=451, 
 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_2.png Grap
 hic file (type png)
 <use ../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/t-sne/t-sne_cbr_pr
-ojection_2.png  used on input line 279.
+ojection_2.png  used on input line 284.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projection_2.
-png, id=445, 431.6125pt x 451.6875pt>
+png, id=453, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projecti
 on_2.png Graphic file (type png)
 <use ../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projectio
 n_2.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/t-sne/stress_curve
-_t-sne_cbr_projection_2.png  used on input line 280.
+_t-sne_cbr_projection_2.png  used on input line 285.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_3.png, id=447, 
+<../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_3.png, id=455, 
 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_3.png Grap
 hic file (type png)
 <use ../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/t-sne/t-sne_cbr_pr
-ojection_3.png  used on input line 284.
+ojection_3.png  used on input line 289.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projection_3.
-png, id=449, 431.6125pt x 451.6875pt>
+png, id=457, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projecti
 on_3.png Graphic file (type png)
 <use ../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projectio
 n_3.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/t-sne/stress_curve
-_t-sne_cbr_projection_3.png  used on input line 285.
+_t-sne_cbr_projection_3.png  used on input line 290.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [10 <../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_1.png> <..
+ [11 <../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_1.png> <..
 /multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projection_1.png
  (PNG copy)> <../multidimensional_projections/cbr/t-sne/t-sne_cbr_projection_2.
 png> <../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_projecti
@@ -1047,60 +1092,60 @@ on_2.png (PNG copy)> <../multidimensional_projections/cbr/t-sne/t-sne_cbr_proje
 ction_3.png> <../multidimensional_projections/cbr/t-sne/stress_curve_t-sne_cbr_
 projection_3.png (PNG copy)>]
 <../multidimensional_projections/cbr/projclus/projclus_cbr_projection_1.png, id
-=464, 1686.3pt x 1053.9375pt>
+=473, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/cbr/projclus/projclus_cbr_projection_1.pn
 g Graphic file (type png)
 <use ../multidimensional_projections/cbr/projclus/projclus_cbr_projection_1.png
 >
 Package pdftex.def Info: ../multidimensional_projections/cbr/projclus/projclus_
-cbr_projection_1.png  used on input line 293.
+cbr_projection_1.png  used on input line 298.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/cbr/projclus/stress_curve_projclus_cbr_project
-ion_1.png, id=466, 431.6125pt x 451.6875pt>
+ion_1.png, id=475, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/cbr/projclus/stress_curve_projclus_cbr_pr
 ojection_1.png Graphic file (type png)
 <use ../multidimensional_projections/cbr/projclus/stress_curve_projclus_cbr_pro
 jection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/projclus/stress_cu
-rve_projclus_cbr_projection_1.png  used on input line 294.
+rve_projclus_cbr_projection_1.png  used on input line 299.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/cbr/projclus/projclus_cbr_projection_2.png, id
-=468, 1686.3pt x 1053.9375pt>
+=477, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/cbr/projclus/projclus_cbr_projection_2.pn
 g Graphic file (type png)
 <use ../multidimensional_projections/cbr/projclus/projclus_cbr_projection_2.png
 >
 Package pdftex.def Info: ../multidimensional_projections/cbr/projclus/projclus_
-cbr_projection_2.png  used on input line 298.
+cbr_projection_2.png  used on input line 303.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/cbr/projclus/stress_curve_projclus_cbr_project
-ion_2.png, id=470, 431.6125pt x 451.6875pt>
+ion_2.png, id=479, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/cbr/projclus/stress_curve_projclus_cbr_pr
 ojection_2.png Graphic file (type png)
 <use ../multidimensional_projections/cbr/projclus/stress_curve_projclus_cbr_pro
 jection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/projclus/stress_cu
-rve_projclus_cbr_projection_2.png  used on input line 299.
+rve_projclus_cbr_projection_2.png  used on input line 304.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/cbr/projclus/projclus_cbr_projection_3.png, id
-=472, 1686.3pt x 1053.9375pt>
+=481, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/cbr/projclus/projclus_cbr_projection_3.pn
 g Graphic file (type png)
 <use ../multidimensional_projections/cbr/projclus/projclus_cbr_projection_3.png
 >
 Package pdftex.def Info: ../multidimensional_projections/cbr/projclus/projclus_
-cbr_projection_3.png  used on input line 303.
+cbr_projection_3.png  used on input line 308.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/cbr/projclus/stress_curve_projclus_cbr_project
-ion_3.png, id=474, 431.6125pt x 451.6875pt>
+ion_3.png, id=483, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/cbr/projclus/stress_curve_projclus_cbr_pr
 ojection_3.png Graphic file (type png)
 <use ../multidimensional_projections/cbr/projclus/stress_curve_projclus_cbr_pro
 jection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/cbr/projclus/stress_cu
-rve_projclus_cbr_projection_3.png  used on input line 304.
+rve_projclus_cbr_projection_3.png  used on input line 309.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [11 <../multidimensional_projections/cbr/projclus/projclus_cbr_projection_1.pn
+ [12 <../multidimensional_projections/cbr/projclus/projclus_cbr_projection_1.pn
 g> <../multidimensional_projections/cbr/projclus/stress_curve_projclus_cbr_proj
 ection_1.png (PNG copy)> <../multidimensional_projections/cbr/projclus/projclus
 _cbr_projection_2.png> <../multidimensional_projections/cbr/projclus/stress_cur
@@ -1108,57 +1153,57 @@ ve_projclus_cbr_projection_2.png (PNG copy)> <../multidimensional_projections/c
 br/projclus/projclus_cbr_projection_3.png> <../multidimensional_projections/cbr
 /projclus/stress_curve_projclus_cbr_projection_3.png (PNG copy)>]
 <../multidimensional_projections/medical/lsp/lsp_medical_projection_1.png, id=4
-90, 1686.3pt x 1053.9375pt>
+98, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/medical/lsp/lsp_medical_projection_1.png 
 Graphic file (type png)
 <use ../multidimensional_projections/medical/lsp/lsp_medical_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/lsp/lsp_medica
-l_projection_1.png  used on input line 312.
+l_projection_1.png  used on input line 317.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/medical/lsp/stress_curve_lsp_medical_projectio
-n_1.png, id=492, 431.6125pt x 451.6875pt>
+n_1.png, id=500, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/medical/lsp/stress_curve_lsp_medical_proj
 ection_1.png Graphic file (type png)
 <use ../multidimensional_projections/medical/lsp/stress_curve_lsp_medical_proje
 ction_1.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/lsp/stress_cur
-ve_lsp_medical_projection_1.png  used on input line 313.
+ve_lsp_medical_projection_1.png  used on input line 318.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/medical/lsp/lsp_medical_projection_2.png, id=4
-94, 1686.3pt x 1053.9375pt>
+<../multidimensional_projections/medical/lsp/lsp_medical_projection_2.png, id=5
+02, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/medical/lsp/lsp_medical_projection_2.png 
 Graphic file (type png)
 <use ../multidimensional_projections/medical/lsp/lsp_medical_projection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/lsp/lsp_medica
-l_projection_2.png  used on input line 317.
+l_projection_2.png  used on input line 322.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/medical/lsp/stress_curve_lsp_medical_projectio
-n_2.png, id=496, 431.6125pt x 451.6875pt>
+n_2.png, id=504, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/medical/lsp/stress_curve_lsp_medical_proj
 ection_2.png Graphic file (type png)
 <use ../multidimensional_projections/medical/lsp/stress_curve_lsp_medical_proje
 ction_2.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/lsp/stress_cur
-ve_lsp_medical_projection_2.png  used on input line 318.
+ve_lsp_medical_projection_2.png  used on input line 323.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/medical/lsp/lsp_medical_projection_3.png, id=4
-98, 1686.3pt x 1053.9375pt>
+<../multidimensional_projections/medical/lsp/lsp_medical_projection_3.png, id=5
+06, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/medical/lsp/lsp_medical_projection_3.png 
 Graphic file (type png)
 <use ../multidimensional_projections/medical/lsp/lsp_medical_projection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/lsp/lsp_medica
-l_projection_3.png  used on input line 322.
+l_projection_3.png  used on input line 327.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/medical/lsp/stress_curve_lsp_medical_projectio
-n_3.png, id=500, 431.6125pt x 451.6875pt>
+n_3.png, id=508, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/medical/lsp/stress_curve_lsp_medical_proj
 ection_3.png Graphic file (type png)
 <use ../multidimensional_projections/medical/lsp/stress_curve_lsp_medical_proje
 ction_3.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/lsp/stress_cur
-ve_lsp_medical_projection_3.png  used on input line 323.
+ve_lsp_medical_projection_3.png  used on input line 328.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [12 <../multidimensional_projections/medical/lsp/lsp_medical_projection_1.png>
+ [13 <../multidimensional_projections/medical/lsp/lsp_medical_projection_1.png>
  <../multidimensional_projections/medical/lsp/stress_curve_lsp_medical_projecti
 on_1.png (PNG copy)> <../multidimensional_projections/medical/lsp/lsp_medical_p
 rojection_2.png> <../multidimensional_projections/medical/lsp/stress_curve_lsp_
@@ -1166,61 +1211,61 @@ medical_projection_2.png (PNG copy)> <../multidimensional_projections/medical/l
 sp/lsp_medical_projection_3.png> <../multidimensional_projections/medical/lsp/s
 tress_curve_lsp_medical_projection_3.png (PNG copy)>]
 <../multidimensional_projections/medical/t-sne/t-sne_medical_projection_1.png, 
-id=515, 1686.3pt x 1053.9375pt>
+id=523, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/medical/t-sne/t-sne_medical_projection_1.
 png Graphic file (type png)
 <use ../multidimensional_projections/medical/t-sne/t-sne_medical_projection_1.p
 ng>
 Package pdftex.def Info: ../multidimensional_projections/medical/t-sne/t-sne_me
-dical_projection_1.png  used on input line 330.
+dical_projection_1.png  used on input line 335.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/medical/t-sne/stress_curve_t-sne_medical_proje
-ction_1.png, id=517, 431.6125pt x 451.6875pt>
+ction_1.png, id=525, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/medical/t-sne/stress_curve_t-sne_medical_
 projection_1.png Graphic file (type png)
 <use ../multidimensional_projections/medical/t-sne/stress_curve_t-sne_medical_p
 rojection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/t-sne/stress_c
-urve_t-sne_medical_projection_1.png  used on input line 331.
+urve_t-sne_medical_projection_1.png  used on input line 336.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/medical/t-sne/t-sne_medical_projection_2.png, 
-id=519, 1686.3pt x 1053.9375pt>
+id=527, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/medical/t-sne/t-sne_medical_projection_2.
 png Graphic file (type png)
 <use ../multidimensional_projections/medical/t-sne/t-sne_medical_projection_2.p
 ng>
 Package pdftex.def Info: ../multidimensional_projections/medical/t-sne/t-sne_me
-dical_projection_2.png  used on input line 335.
+dical_projection_2.png  used on input line 340.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/medical/t-sne/stress_curve_t-sne_medical_proje
-ction_2.png, id=521, 431.6125pt x 451.6875pt>
+ction_2.png, id=529, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/medical/t-sne/stress_curve_t-sne_medical_
 projection_2.png Graphic file (type png)
 <use ../multidimensional_projections/medical/t-sne/stress_curve_t-sne_medical_p
 rojection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/t-sne/stress_c
-urve_t-sne_medical_projection_2.png  used on input line 336.
+urve_t-sne_medical_projection_2.png  used on input line 341.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/medical/t-sne/t-sne_medical_projection_3.png, 
-id=523, 1686.3pt x 1053.9375pt>
+id=531, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/medical/t-sne/t-sne_medical_projection_3.
 png Graphic file (type png)
 <use ../multidimensional_projections/medical/t-sne/t-sne_medical_projection_3.p
 ng>
 Package pdftex.def Info: ../multidimensional_projections/medical/t-sne/t-sne_me
-dical_projection_3.png  used on input line 340.
+dical_projection_3.png  used on input line 345.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/medical/t-sne/stress_curve_t-sne_medical_proje
-ction_3.png, id=525, 431.6125pt x 451.6875pt>
+ction_3.png, id=533, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/medical/t-sne/stress_curve_t-sne_medical_
 projection_3.png Graphic file (type png)
 <use ../multidimensional_projections/medical/t-sne/stress_curve_t-sne_medical_p
 rojection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/t-sne/stress_c
-urve_t-sne_medical_projection_3.png  used on input line 341.
+urve_t-sne_medical_projection_3.png  used on input line 346.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 
-[13 <../multidimensional_projections/medical/t-sne/t-sne_medical_projection_1.p
+[14 <../multidimensional_projections/medical/t-sne/t-sne_medical_projection_1.p
 ng> <../multidimensional_projections/medical/t-sne/stress_curve_t-sne_medical_p
 rojection_1.png (PNG copy)> <../multidimensional_projections/medical/t-sne/t-sn
 e_medical_projection_2.png> <../multidimensional_projections/medical/t-sne/stre
@@ -1228,81 +1273,81 @@ ss_curve_t-sne_medical_projection_2.png (PNG copy)> <../multidimensional_projec
 tions/medical/t-sne/t-sne_medical_projection_3.png> <../multidimensional_projec
 tions/medical/t-sne/stress_curve_t-sne_medical_projection_3.png (PNG copy)>]
 <../multidimensional_projections/medical/pca/pca_medical_projection_1.png, id=5
-40, 1686.3pt x 1053.9375pt>
+48, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/medical/pca/pca_medical_projection_1.png 
 Graphic file (type png)
 <use ../multidimensional_projections/medical/pca/pca_medical_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/pca/pca_medica
-l_projection_1.png  used on input line 348.
+l_projection_1.png  used on input line 353.
 (pdftex.def)             Requested size: 248.96162pt x 155.59113pt.
 <../multidimensional_projections/medical/pca/stress_curve_pca_medical_projectio
-n_1.png, id=542, 431.6125pt x 451.6875pt>
+n_1.png, id=550, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/medical/pca/stress_curve_pca_medical_proj
 ection_1.png Graphic file (type png)
 <use ../multidimensional_projections/medical/pca/stress_curve_pca_medical_proje
 ction_1.png>
 Package pdftex.def Info: ../multidimensional_projections/medical/pca/stress_cur
-ve_pca_medical_projection_1.png  used on input line 350.
+ve_pca_medical_projection_1.png  used on input line 355.
 (pdftex.def)             Requested size: 248.96162pt x 260.53845pt.
 
-[14 <../multidimensional_projections/medical/pca/pca_medical_projection_1.png> 
+[15 <../multidimensional_projections/medical/pca/pca_medical_projection_1.png> 
 <../multidimensional_projections/medical/pca/stress_curve_pca_medical_projectio
 n_1.png (PNG copy)>]
 <../multidimensional_projections/headlines/lsp/lsp_headlines_projection_1.png, 
-id=551, 1686.3pt x 1053.9375pt>
+id=559, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/headlines/lsp/lsp_headlines_projection_1.
 png Graphic file (type png)
 <use ../multidimensional_projections/headlines/lsp/lsp_headlines_projection_1.p
 ng>
 Package pdftex.def Info: ../multidimensional_projections/headlines/lsp/lsp_head
-lines_projection_1.png  used on input line 358.
+lines_projection_1.png  used on input line 363.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/headlines/lsp/stress_curve_lsp_headlines_proje
-ction_1.png, id=553, 431.6125pt x 451.6875pt>
+ction_1.png, id=561, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/headlines/lsp/stress_curve_lsp_headlines_
 projection_1.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/lsp/stress_curve_lsp_headlines_p
 rojection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/lsp/stress_c
-urve_lsp_headlines_projection_1.png  used on input line 359.
+urve_lsp_headlines_projection_1.png  used on input line 364.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/headlines/lsp/lsp_headlines_projection_2.png, 
-id=555, 1686.3pt x 1053.9375pt>
+id=563, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/headlines/lsp/lsp_headlines_projection_2.
 png Graphic file (type png)
 <use ../multidimensional_projections/headlines/lsp/lsp_headlines_projection_2.p
 ng>
 Package pdftex.def Info: ../multidimensional_projections/headlines/lsp/lsp_head
-lines_projection_2.png  used on input line 363.
+lines_projection_2.png  used on input line 368.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/headlines/lsp/stress_curve_lsp_headlines_proje
-ction_2.png, id=557, 431.6125pt x 451.6875pt>
+ction_2.png, id=565, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/headlines/lsp/stress_curve_lsp_headlines_
 projection_2.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/lsp/stress_curve_lsp_headlines_p
 rojection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/lsp/stress_c
-urve_lsp_headlines_projection_2.png  used on input line 364.
+urve_lsp_headlines_projection_2.png  used on input line 369.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/headlines/lsp/lsp_headlines_projection_3.png, 
-id=559, 1686.3pt x 1053.9375pt>
+id=567, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/headlines/lsp/lsp_headlines_projection_3.
 png Graphic file (type png)
 <use ../multidimensional_projections/headlines/lsp/lsp_headlines_projection_3.p
 ng>
 Package pdftex.def Info: ../multidimensional_projections/headlines/lsp/lsp_head
-lines_projection_3.png  used on input line 368.
+lines_projection_3.png  used on input line 373.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/headlines/lsp/stress_curve_lsp_headlines_proje
-ction_3.png, id=561, 431.6125pt x 451.6875pt>
+ction_3.png, id=569, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/headlines/lsp/stress_curve_lsp_headlines_
 projection_3.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/lsp/stress_curve_lsp_headlines_p
 rojection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/lsp/stress_c
-urve_lsp_headlines_projection_3.png  used on input line 369.
+urve_lsp_headlines_projection_3.png  used on input line 374.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [15 <../multidimensional_projections/headlines/lsp/lsp_headlines_projection_1.
+ [16 <../multidimensional_projections/headlines/lsp/lsp_headlines_projection_1.
 png> <../multidimensional_projections/headlines/lsp/stress_curve_lsp_headlines_
 projection_1.png (PNG copy)> <../multidimensional_projections/headlines/lsp/lsp
 _headlines_projection_2.png> <../multidimensional_projections/headlines/lsp/str
@@ -1310,60 +1355,60 @@ ess_curve_lsp_headlines_projection_2.png (PNG copy)> <../multidimensional_proje
 ctions/headlines/lsp/lsp_headlines_projection_3.png> <../multidimensional_proje
 ctions/headlines/lsp/stress_curve_lsp_headlines_projection_3.png (PNG copy)>]
 <../multidimensional_projections/headlines/t-sne/t-sne_headlines_projection_1.p
-ng, id=577, 1686.3pt x 1053.9375pt>
+ng, id=585, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/headlines/t-sne/t-sne_headlines_projectio
 n_1.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/t-sne/t-sne_headlines_projection
 _1.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/t-sne/t-sne_
-headlines_projection_1.png  used on input line 376.
+headlines_projection_1.png  used on input line 381.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/headlines/t-sne/stress_curve_t-sne_headlines_p
-rojection_1.png, id=579, 431.6125pt x 451.6875pt>
+rojection_1.png, id=587, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/headlines/t-sne/stress_curve_t-sne_headli
 nes_projection_1.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/t-sne/stress_curve_t-sne_headlin
 es_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/t-sne/stress
-_curve_t-sne_headlines_projection_1.png  used on input line 377.
+_curve_t-sne_headlines_projection_1.png  used on input line 382.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/headlines/t-sne/t-sne_headlines_projection_2.p
-ng, id=581, 1686.3pt x 1053.9375pt>
+ng, id=589, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/headlines/t-sne/t-sne_headlines_projectio
 n_2.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/t-sne/t-sne_headlines_projection
 _2.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/t-sne/t-sne_
-headlines_projection_2.png  used on input line 381.
+headlines_projection_2.png  used on input line 386.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/headlines/t-sne/stress_curve_t-sne_headlines_p
-rojection_2.png, id=583, 431.6125pt x 451.6875pt>
+rojection_2.png, id=591, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/headlines/t-sne/stress_curve_t-sne_headli
 nes_projection_2.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/t-sne/stress_curve_t-sne_headlin
 es_projection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/t-sne/stress
-_curve_t-sne_headlines_projection_2.png  used on input line 382.
+_curve_t-sne_headlines_projection_2.png  used on input line 387.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/headlines/t-sne/t-sne_headlines_projection_3.p
-ng, id=585, 1686.3pt x 1053.9375pt>
+ng, id=593, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/headlines/t-sne/t-sne_headlines_projectio
 n_3.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/t-sne/t-sne_headlines_projection
 _3.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/t-sne/t-sne_
-headlines_projection_3.png  used on input line 386.
+headlines_projection_3.png  used on input line 391.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/headlines/t-sne/stress_curve_t-sne_headlines_p
-rojection_3.png, id=587, 431.6125pt x 451.6875pt>
+rojection_3.png, id=595, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/headlines/t-sne/stress_curve_t-sne_headli
 nes_projection_3.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/t-sne/stress_curve_t-sne_headlin
 es_projection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/t-sne/stress
-_curve_t-sne_headlines_projection_3.png  used on input line 387.
+_curve_t-sne_headlines_projection_3.png  used on input line 392.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [16 <../multidimensional_projections/headlines/t-sne/t-sne_headlines_projectio
+ [17 <../multidimensional_projections/headlines/t-sne/t-sne_headlines_projectio
 n_1.png> <../multidimensional_projections/headlines/t-sne/stress_curve_t-sne_he
 adlines_projection_1.png (PNG copy)> <../multidimensional_projections/headlines
 /t-sne/t-sne_headlines_projection_2.png> <../multidimensional_projections/headl
@@ -1372,60 +1417,60 @@ imensional_projections/headlines/t-sne/t-sne_headlines_projection_3.png> <../mu
 ltidimensional_projections/headlines/t-sne/stress_curve_t-sne_headlines_project
 ion_3.png (PNG copy)>]
 <../multidimensional_projections/headlines/projclus/projclus_headlines_projecti
-on_1.png, id=602, 1686.3pt x 1053.9375pt>
+on_1.png, id=611, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/headlines/projclus/projclus_headlines_pro
 jection_1.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/projclus/projclus_headlines_proj
 ection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/projclus/pro
-jclus_headlines_projection_1.png  used on input line 394.
+jclus_headlines_projection_1.png  used on input line 399.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/headlines/projclus/stress_curve_projclus_headl
-ines_projection_1.png, id=604, 431.6125pt x 451.6875pt>
+ines_projection_1.png, id=613, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/headlines/projclus/stress_curve_projclus_
 headlines_projection_1.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/projclus/stress_curve_projclus_h
 eadlines_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/projclus/str
-ess_curve_projclus_headlines_projection_1.png  used on input line 395.
+ess_curve_projclus_headlines_projection_1.png  used on input line 400.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/headlines/projclus/projclus_headlines_projecti
-on_2.png, id=606, 1686.3pt x 1053.9375pt>
+on_2.png, id=615, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/headlines/projclus/projclus_headlines_pro
 jection_2.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/projclus/projclus_headlines_proj
 ection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/projclus/pro
-jclus_headlines_projection_2.png  used on input line 399.
+jclus_headlines_projection_2.png  used on input line 404.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/headlines/projclus/stress_curve_projclus_headl
-ines_projection_2.png, id=608, 431.6125pt x 451.6875pt>
+ines_projection_2.png, id=617, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/headlines/projclus/stress_curve_projclus_
 headlines_projection_2.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/projclus/stress_curve_projclus_h
 eadlines_projection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/projclus/str
-ess_curve_projclus_headlines_projection_2.png  used on input line 400.
+ess_curve_projclus_headlines_projection_2.png  used on input line 405.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
 <../multidimensional_projections/headlines/projclus/projclus_headlines_projecti
-on_3.png, id=610, 1686.3pt x 1053.9375pt>
+on_3.png, id=619, 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/headlines/projclus/projclus_headlines_pro
 jection_3.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/projclus/projclus_headlines_proj
 ection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/projclus/pro
-jclus_headlines_projection_3.png  used on input line 404.
+jclus_headlines_projection_3.png  used on input line 409.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/headlines/projclus/stress_curve_projclus_headl
-ines_projection_3.png, id=612, 431.6125pt x 451.6875pt>
+ines_projection_3.png, id=621, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/headlines/projclus/stress_curve_projclus_
 headlines_projection_3.png Graphic file (type png)
 <use ../multidimensional_projections/headlines/projclus/stress_curve_projclus_h
 eadlines_projection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/headlines/projclus/str
-ess_curve_projclus_headlines_projection_3.png  used on input line 405.
+ess_curve_projclus_headlines_projection_3.png  used on input line 410.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [17 <../multidimensional_projections/headlines/projclus/projclus_headlines_pro
+ [18 <../multidimensional_projections/headlines/projclus/projclus_headlines_pro
 jection_1.png> <../multidimensional_projections/headlines/projclus/stress_curve
 _projclus_headlines_projection_1.png (PNG copy)> <../multidimensional_projectio
 ns/headlines/projclus/projclus_headlines_projection_2.png> <../multidimensional
@@ -1433,168 +1478,174 @@ _projections/headlines/projclus/stress_curve_projclus_headlines_projection_2.pn
 g (PNG copy)> <../multidimensional_projections/headlines/projclus/projclus_head
 lines_projection_3.png> <../multidimensional_projections/headlines/projclus/str
 ess_curve_projclus_headlines_projection_3.png (PNG copy)>]
-<../multidimensional_projections/hdr/lsp/lsp_hdr_projection_1.png, id=628, 1686
+<../multidimensional_projections/hdr/lsp/lsp_hdr_projection_1.png, id=636, 1686
 .3pt x 1053.9375pt>
 File: ../multidimensional_projections/hdr/lsp/lsp_hdr_projection_1.png Graphic 
 file (type png)
 <use ../multidimensional_projections/hdr/lsp/lsp_hdr_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/lsp/lsp_hdr_projec
-tion_1.png  used on input line 414.
+tion_1.png  used on input line 419.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_1.png,
- id=630, 431.6125pt x 451.6875pt>
+ id=638, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_1
 .png Graphic file (type png)
 <use ../multidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_1.
 png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/lsp/stress_curve_l
-sp_hdr_projection_1.png  used on input line 415.
+sp_hdr_projection_1.png  used on input line 420.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/hdr/lsp/lsp_hdr_projection_2.png, id=632, 1686
+<../multidimensional_projections/hdr/lsp/lsp_hdr_projection_2.png, id=640, 1686
 .3pt x 1053.9375pt>
 File: ../multidimensional_projections/hdr/lsp/lsp_hdr_projection_2.png Graphic 
 file (type png)
 <use ../multidimensional_projections/hdr/lsp/lsp_hdr_projection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/lsp/lsp_hdr_projec
-tion_2.png  used on input line 419.
+tion_2.png  used on input line 424.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_2.png,
- id=634, 431.6125pt x 451.6875pt>
+ id=642, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_2
 .png Graphic file (type png)
 <use ../multidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_2.
 png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/lsp/stress_curve_l
-sp_hdr_projection_2.png  used on input line 420.
+sp_hdr_projection_2.png  used on input line 425.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/hdr/lsp/lsp_hdr_projection_3.png, id=636, 1686
+<../multidimensional_projections/hdr/lsp/lsp_hdr_projection_3.png, id=644, 1686
 .3pt x 1053.9375pt>
 File: ../multidimensional_projections/hdr/lsp/lsp_hdr_projection_3.png Graphic 
 file (type png)
 <use ../multidimensional_projections/hdr/lsp/lsp_hdr_projection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/lsp/lsp_hdr_projec
-tion_3.png  used on input line 424.
+tion_3.png  used on input line 429.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_3.png,
- id=638, 431.6125pt x 451.6875pt>
+ id=646, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_3
 .png Graphic file (type png)
 <use ../multidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_3.
 png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/lsp/stress_curve_l
-sp_hdr_projection_3.png  used on input line 425.
+sp_hdr_projection_3.png  used on input line 430.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [18 <../multidimensional_projections/hdr/lsp/lsp_hdr_projection_1.png> <../mul
+ [19 <../multidimensional_projections/hdr/lsp/lsp_hdr_projection_1.png> <../mul
 tidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_1.png (PNG co
 py)> <../multidimensional_projections/hdr/lsp/lsp_hdr_projection_2.png> <../mul
 tidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_2.png (PNG co
 py)> <../multidimensional_projections/hdr/lsp/lsp_hdr_projection_3.png> <../mul
 tidimensional_projections/hdr/lsp/stress_curve_lsp_hdr_projection_3.png (PNG co
 py)>]
-<../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_1.png, id=653, 
+<../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_1.png, id=661, 
 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_1.png Grap
 hic file (type png)
 <use ../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/t-sne/t-sne_hdr_pr
-ojection_1.png  used on input line 432.
+ojection_1.png  used on input line 437.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projection_1.
-png, id=655, 431.6125pt x 451.6875pt>
+png, id=663, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projecti
 on_1.png Graphic file (type png)
 <use ../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projectio
 n_1.png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/t-sne/stress_curve
-_t-sne_hdr_projection_1.png  used on input line 433.
+_t-sne_hdr_projection_1.png  used on input line 438.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_2.png, id=657, 
+<../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_2.png, id=665, 
 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_2.png Grap
 hic file (type png)
 <use ../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_2.png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/t-sne/t-sne_hdr_pr
-ojection_2.png  used on input line 437.
+ojection_2.png  used on input line 442.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projection_2.
-png, id=659, 431.6125pt x 451.6875pt>
+png, id=667, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projecti
 on_2.png Graphic file (type png)
 <use ../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projectio
 n_2.png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/t-sne/stress_curve
-_t-sne_hdr_projection_2.png  used on input line 438.
+_t-sne_hdr_projection_2.png  used on input line 443.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
-<../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_3.png, id=661, 
+<../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_3.png, id=669, 
 1686.3pt x 1053.9375pt>
 File: ../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_3.png Grap
 hic file (type png)
 <use ../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_3.png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/t-sne/t-sne_hdr_pr
-ojection_3.png  used on input line 442.
+ojection_3.png  used on input line 447.
 (pdftex.def)             Requested size: 161.2323pt x 100.76837pt.
 <../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projection_3.
-png, id=663, 431.6125pt x 451.6875pt>
+png, id=671, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projecti
 on_3.png Graphic file (type png)
 <use ../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projectio
 n_3.png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/t-sne/stress_curve
-_t-sne_hdr_projection_3.png  used on input line 443.
+_t-sne_hdr_projection_3.png  used on input line 448.
 (pdftex.def)             Requested size: 161.2323pt x 168.72763pt.
- [19 <../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_1.png> <..
+ [20 <../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_1.png> <..
 /multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projection_1.png
  (PNG copy)> <../multidimensional_projections/hdr/t-sne/t-sne_hdr_projection_2.
 png> <../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_projecti
 on_2.png (PNG copy)> <../multidimensional_projections/hdr/t-sne/t-sne_hdr_proje
 ction_3.png> <../multidimensional_projections/hdr/t-sne/stress_curve_t-sne_hdr_
 projection_3.png (PNG copy)>]
-<../multidimensional_projections/hdr/pca/pca_hdr_projection_1.png, id=678, 1686
+<../multidimensional_projections/hdr/pca/pca_hdr_projection_1.png, id=686, 1686
 .3pt x 1053.9375pt>
 File: ../multidimensional_projections/hdr/pca/pca_hdr_projection_1.png Graphic 
 file (type png)
 <use ../multidimensional_projections/hdr/pca/pca_hdr_projection_1.png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/pca/pca_hdr_projec
-tion_1.png  used on input line 450.
+tion_1.png  used on input line 455.
 (pdftex.def)             Requested size: 248.96162pt x 155.59113pt.
 <../multidimensional_projections/hdr/pca/stress_curve_pca_hdr_projection_1.png,
- id=680, 431.6125pt x 451.6875pt>
+ id=688, 431.6125pt x 451.6875pt>
 File: ../multidimensional_projections/hdr/pca/stress_curve_pca_hdr_projection_1
 .png Graphic file (type png)
 <use ../multidimensional_projections/hdr/pca/stress_curve_pca_hdr_projection_1.
 png>
 Package pdftex.def Info: ../multidimensional_projections/hdr/pca/stress_curve_p
-ca_hdr_projection_1.png  used on input line 452.
+ca_hdr_projection_1.png  used on input line 457.
 (pdftex.def)             Requested size: 248.96162pt x 260.53845pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 465.
- [20 <../multidimensional_projections/hdr/pca/pca_hdr_projection_1.png> <../mul
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 470.
+ [21 <../multidimensional_projections/hdr/pca/pca_hdr_projection_1.png> <../mul
 tidimensional_projections/hdr/pca/stress_curve_pca_hdr_projection_1.png (PNG co
 py)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 465.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 470.
 
 (./CS3205LabReport1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 465.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 465.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 470.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
 Package rerunfilecheck Info: File `CS3205LabReport1.out' has not changed.
 (rerunfilecheck)             Checksum: F4FE5EB9641387D30D6C4047DBE7DAAB;2997.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 465.
- ) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 470.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 118 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 9776 strings out of 483140
- 179108 string characters out of 5965151
- 422400 words of memory out of 5000000
- 24301 multiletter control sequences out of 15000+600000
- 569004 words of font info for 87 fonts, out of 8000000 for 9000
+ 9786 strings out of 483140
+ 179185 string characters out of 5965151
+ 422406 words of memory out of 5000000
+ 24304 multiletter control sequences out of 15000+600000
+ 576124 words of font info for 95 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 34i,7n,37p,679b,660s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmr8a.pfb>
-Output written on CS3205LabReport1.pdf (22 pages, 10767192 bytes).
+ 34i,7n,37p,711b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on CS3205LabReport1.pdf (23 pages, 10788325 bytes).
 PDF statistics:
- 738 PDF objects out of 1000 (max. 8388607)
- 572 compressed objects within 6 object streams
- 160 named destinations out of 1000 (max. 500000)
+ 752 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 161 named destinations out of 1000 (max. 500000)
  818 words of extra memory for PDF output out of 10000 (max. 10000000)
 
