@@ -17,10 +17,10 @@
 \contentsline {subsection}{\numberline {3.2}Specific Observations}{5}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Spurious Values}{5}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Correlated Attributes}{6}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Uncorrelated Attributes}{6}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Hypotheses for Previous Patterns}{7}{subsubsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.5}Usefulness of All Visualisations}{7}{subsubsection.3.2.5}%
-\contentsline {subsubsection}{\numberline {3.2.6}Alternative Visualisations}{7}{subsubsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.3}Uncorrelated Attributes}{7}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Hypotheses for Previous Patterns}{8}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Usefulness of All Visualisations}{8}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}Alternative Visualisations}{8}{subsubsection.3.2.6}%
 \contentsline {section}{\numberline {4}Task 2}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Corel Projections Comparison}{9}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}LSP}{9}{subsubsection.4.1.1}%
