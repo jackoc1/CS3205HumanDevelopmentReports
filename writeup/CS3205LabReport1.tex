@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,final]{article}
+\documentclass[11pt,a4paper,draft]{article}
 
 \usepackage[latin1]{inputenc}
 \usepackage{amsmath}
@@ -18,6 +18,8 @@
 \usepackage{multicol}
 \usepackage{color}
 \usepackage{hyperref}
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
 
 \hypersetup{
     colorlinks,
@@ -181,161 +183,215 @@ Results for task 2.
 \subsection{Corel Projections Comparison}
 \subsubsection{LSP}
 \begin{multicols}{3}
-\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{First projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\onlinefig{corel/lsp/stress_curve_lsp_corel_projection_2}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{corel/lsp/lsp_corel_projection_3}{Second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{corel/lsp/stress_curve_lsp_corel_projection_3}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
-\vfill\null
-\columnbreak
+\onlinefig{corel/lsp/lsp_corel_projection_4}{Third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
+\onlinefig{corel/lsp/stress_curve_lsp_corel_projection_4}{Stress Curve}{}
 \end{multicols}
 
+\pagebreak
 \subsubsection{t-SNE}
-\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\begin{multicols}{3}
+\onlinefig{corel/t-sne/t-sne_corel_projection_1}{First projection}{}
+\onlinefig{corel/t-sne/stress_curve_t-sne_corel_projection_1}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{corel/t-sne/t-sne_corel_projection_2}{Second projection}{}
+\onlinefig{corel/t-sne/stress_curve_t-sne_corel_projection_2}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
-\vfill\null
-\columnbreak
+\onlinefig{corel/t-sne/t-sne_corel_projection_3}{Third projection}{}
+\onlinefig{corel/t-sne/stress_curve_t-sne_corel_projection_3}{Stress Curve}{}
 \end{multicols}
 
+\pagebreak
 \subsubsection{PCA}
 
-
+\pagebreak
 \subsection{CBR Projections Comparison}
 \subsubsection{LSP}
-\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\begin{multicols}{3}
+\onlinefig{cbr/lsp/lsp_cbr_projection_1}{First projection}{}
+\onlinefig{cbr/lsp/stress_curve_lsp_corel_projection_1}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{cbr/lsp/lsp_cbr_projection_2}{Second projection}{}
+\onlinefig{corel/t-sne/stress_curve_t-sne_corel_projection_2}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
-\vfill\null
-\columnbreak
+\onlinefig{cbr/lsp/lsp_cbr_projection_3}{Third projection}{}
+\onlinefig{corel/t-sne/stress_curve_t-sne_corel_projection_3}{Stress Curve}{}
 \end{multicols}
 
+\pagebreak
 \subsubsection{t-SNE}
-\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\begin{multicols}{3}
+\onlinefig{cbr/t-sne/t-sne_cbr_projection_1}{First projection}{}
+\onlinefig{cbr/t-sne/stress_curve_t-sne_cbr_projection_1}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{cbr/t-sne/t-sne_cbr_projection_2}{Second projection}{}
+\onlinefig{cbr/t-sne/stress_curve_t-sne_cbr_projection_2}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
-\vfill\null
-\columnbreak
+\onlinefig{cbr/t-sne/t-sne_cbr_projection_3}{Third projection}{}
+\onlinefig{cbr/t-sne/stress_curve_t-sne_cbr_projection_3}{Stress Curve}{}
 \end{multicols}
 
+
+\pagebreak
 \subsubsection{ProjClus}
-\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\begin{multicols}{3}
+\onlinefig{cbr/projclus/projclus_cbr_projection_1}{First projection}{}
+\onlinefig{cbr/projclus/stress_curve_projclus_cbr_projection_1}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{cbr/projclus/projclus_cbr_projection_2}{Second projection}{}
+\onlinefig{cbr/projclus/stress_curve_projclus_cbr_projection_2}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
-\vfill\null
-\columnbreak
+\onlinefig{cbr/projclus/projclus_cbr_projection_3}{Third projection}{}
+\onlinefig{cbr/projclus/stress_curve_projclus_cbr_projection_3}{Stress Curve}{}
 \end{multicols}
 
-
+\pagebreak
 \subsection{Medical Images Projections Comparison}
 \subsubsection{LSP}
-\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\begin{multicols}{3}
+\onlinefig{medical/lsp/lsp_medical_projection_1}{First projection}{}
+\onlinefig{medical/lsp/stress_curve_lsp_medical_projection_1}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{medical/lsp/lsp_medical_projection_2}{Second projection}{}
+\onlinefig{medical/lsp/stress_curve_lsp_medical_projection_2}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
-\vfill\null
-\columnbreak
+\onlinefig{medical/lsp/lsp_medical_projection_3}{Third projection}{}
+\onlinefig{medical/lsp/stress_curve_lsp_medical_projection_3}{Stress Curve}{}
 \end{multicols}
 
+\pagebreak
 \subsubsection{t-SNE}
-\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\begin{multicols}{3}
+\onlinefig{medical/t-sne/t-sne_medical_projection_1}{First projection}{}
+\onlinefig{medical/t-sne/stress_curve_t-sne_medical_projection_1}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{medical/t-sne/t-sne_medical_projection_2}{Second projection}{}
+\onlinefig{medical/t-sne/stress_curve_t-sne_medical_projection_2}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
-\vfill\null
-\columnbreak
+\onlinefig{medical/t-sne/t-sne_medical_projection_3}{Third projection}{}
+\onlinefig{medical/t-sne/stress_curve_t-sne_medical_projection_3}{Stress Curve}{}
 \end{multicols}
 
+\pagebreak
 \subsubsection{PCA}
 
 
+\pagebreak
 \subsection{News Headlines Projections Comparison}
 \subsubsection{LSP}
-\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\begin{multicols}{3}
+\onlinefig{headlines/lsp/lsp_headlines_projection_1}{First projection}{}
+\onlinefig{headlines/lsp/stress_curve_lsp_headlines_projection_1}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{headlines/lsp/lsp_headlines_projection_2}{Second projection}{}
+\onlinefig{headlines/lsp/stress_curve_lsp_headlines_projection_2}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
-\vfill\null
-\columnbreak
+\onlinefig{headlines/lsp/lsp_headlines_projection_3}{Third projection}{}
+\onlinefig{headlines/lsp/stress_curve_lsp_headlines_projection_3}{Stress Curve}{}
 \end{multicols}
 
+\pagebreak
 \subsubsection{t-SNE}
-\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\begin{multicols}{3}
+\onlinefig{headlines/t-sne/t-sne_headlines_projection_1}{First projection}{}
+\onlinefig{headlines/t-sne/stress_curve_t-sne_headlines_projection_1}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{headlines/t-sne/t-sne_headlines_projection_2}{Second projection}{}
+\onlinefig{headlines/t-sne/stress_curve_t-sne_headlines_projection_2}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
-\vfill\null
-\columnbreak
+\onlinefig{headlines/t-sne/t-sne_medical_projection_3}{Third projection}{}
+\onlinefig{headlines/t-sne/stress_curve_t-sne_headlines_projection_3}{Stress Curve}{}
 \end{multicols}
 
+\pagebreak
 \subsubsection{ProjClus}
-\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{https://user-images.githubusercontent.com/56483187/155839666-f4aee942-600a-44be-a585-8ec91cadaf18.png}
+\begin{multicols}{3}
+\onlinefig{headlines/projclus/projclus_headlines_projection_1}{First projection}{}
+\onlinefig{headlines/projclus/stress_curve_projclus_headlines_projection_1}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{https://user-images.githubusercontent.com/56483187/155839667-a9255ca1-88ee-4bf2-91c5-2ed3999250aa.png}
+\onlinefig{headlines/projclus/projclus_headlines_projection_2}{Second projection}{}
+\onlinefig{headlines/projclus/stress_curve_projclus_headlines_projection_2}{Stress Curve}{}
 \vfill\null
 \columnbreak
 
-\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{https://user-images.githubusercontent.com/56483187/155839670-89eb83bf-0181-41ba-8982-2e6e7fa1b217.png}
-\vfill\null
-\columnbreak
+\onlinefig{headlines/projclus/projclus_headlines_projection_3}{Third projection}{}
+\onlinefig{headlines/projclus/stress_headlines_projclus_headlines_projection_3}{Stress Curve}{}
 \end{multicols}
 
 
+\pagebreak
 \subsection{Projections of HDR}
 \subsubsection{LSP}
+\begin{multicols}{3}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{}
+\vfill\null
+\columnbreak
 
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{}
+\end{multicols}
+
+\pagebreak
 \subsubsection{t-SNE}
+\begin{multicols}{3}
+\onlinefig{corel/lsp/lsp_corel_projection_2}{first projection}{}
+\vfill\null
+\columnbreak
 
+\onlinefig{corel/lsp/lsp_corel_projection_3}{second projection}{}
+\vfill\null
+\columnbreak
+
+\onlinefig{corel/lsp/lsp_corel_projection_4}{third projection}{}
+\end{multicols}
+
+\pagebreak
 \subsubsection{PCA}
 
 
